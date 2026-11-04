@@ -1,0 +1,113 @@
+name: Publish audited Meteonavo image
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Release version
+        required: true
+        default: '0.1.0'
+      source_sha256:
+        description: SHA-256 of audited source ZIP (required for initial import)
+        required: true
+
+permissions:
+  contents: write
+  packages: write
+
+concurrency:
+  group: meteonavo-release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+      VERSION: ${{ inputs.version }}
+      SOURCE_SHA256: ${{ inputs.source_sha256 }}
+      IMAGE: ghcr.io/s3bb3lhu/meteonavo
+    steps:
+      - name: Check out clean public repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Validate release inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-[a-z0-9.]+)?$ ]]
+          [[ "$SOURCE_SHA256" =~ ^[a-f0-9]{64}$ ]]
+          echo "TAG=v$VERSION" >> "$GITHUB_ENV"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config credential.helper '!gh auth git-credential'
+      - name: Import audited initial snapshot if needed
+        shell: bash
+        run: |
+          set -euo pipefail
+          if test ! -f app/main.py; then
+            gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern 'meteonavo-public-source.zip' --dir "$RUNNER_TEMP/import"
+            echo "$SOURCE_SHA256  $RUNNER_TEMP/import/meteonavo-public-source.zip" | sha256sum -c -
+            python3 - "$RUNNER_TEMP/import/meteonavo-public-source.zip" <<'PY'
+          import hashlib,json,sys,zipfile
+          from pathlib import Path,PurePosixPath
+          with zipfile.ZipFile(sys.argv[1]) as z:
+              manifest=json.loads(z.read('meteonavo/RELEASE-MANIFEST.json'))
+              for entry in manifest['files']:
+                  name=entry['path']; rel=PurePosixPath(name)
+                  assert not rel.is_absolute() and '..' not in rel.parts
+                  assert not any(p in {'.git','data','media','hls','service','work','backups'} for p in rel.parts)
+                  body=z.read('meteonavo/'+name)
+                  assert hashlib.sha256(body).hexdigest()==entry['sha256']
+                  p=Path(name);p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(body)
+          PY
+            git add .
+            git commit -m 'Import audited public Meteonavo 0.1.0 source snapshot'
+            git push origin HEAD:main
+          fi
+          echo "REVISION=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Build isolated application image
+        run: |
+          docker buildx create --use --name meteonavo-release-builder
+          docker buildx build --target distribution --load --platform linux/amd64 --label "org.opencontainers.image.revision=$REVISION" --label "org.opencontainers.image.version=$VERSION" -t "$IMAGE:$VERSION" .
+      - name: Test application and clean first installation
+        run: |
+          docker run --rm --network none "$IMAGE:$VERSION" python -m pytest tests -q -p no:cacheprovider --basetemp=/tmp/release-tests
+          docker run --rm --network none "$IMAGE:$VERSION" python -m tools.check_fresh_install
+          docker run --rm --network none "$IMAGE:$VERSION" python -m tools.smoke_renderer
+          docker run --rm --network none "$IMAGE:$VERSION" python -c 'import asyncio; from playwright.async_api import async_playwright; exec("async def check():\n async with async_playwright() as p:\n  b=await p.chromium.launch(executable_path=\"/usr/bin/chromium\",args=[\"--no-sandbox\"]);page=await b.new_page();await page.set_content(\"<h1>Meteonavo</h1>\");assert await page.title()==\"\";await b.close()");asyncio.run(check())'
+      - name: Export exact corresponding Debian sources
+        run: |
+          docker buildx build --target corresponding-sources --output "type=local,dest=$RUNNER_TEMP/corresponding-sources" .
+          mkdir -p "$RUNNER_TEMP/release-assets"
+          tar -C "$RUNNER_TEMP/corresponding-sources" -cf - . | split -b 512M - "$RUNNER_TEMP/release-assets/corresponding-sources.tar.part-"
+          cp "$RUNNER_TEMP/corresponding-sources/debian-source-manifest.json" "$RUNNER_TEMP/release-assets/"
+          cp LICENSE THIRD_PARTY_NOTICES.md DISTRIBUTION.md "$RUNNER_TEMP/release-assets/"
+          cd "$RUNNER_TEMP/release-assets"
+          sha256sum * > SHA256SUMS
+      - name: Prepare release sources before registry upload
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json isDraft >/dev/null 2>&1; then
+            test "$(gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json isDraft --jq '.isDraft')" = true
+          else
+            gh release create "$TAG" --repo "$GITHUB_REPOSITORY" --target "$REVISION" --draft --title "Meteonavo $VERSION" --notes 'Private, non-commercial use only. Operator keys and data are not included. Exact Debian corresponding sources and license notices accompany the image.'
+          fi
+          gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" --target "$REVISION"
+          gh release upload "$TAG" "$RUNNER_TEMP/release-assets/"* --repo "$GITHUB_REPOSITORY" --clobber
+      - name: Push application image using temporary GitHub token
+        env:
+          REGISTRY_TOKEN: ${{ github.token }}
+        run: |
+          printf '%s' "$REGISTRY_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin
+          docker push "$IMAGE:$VERSION"
+          docker tag "$IMAGE:$VERSION" "$IMAGE:latest"
+          docker push "$IMAGE:latest"
+          gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" --draft=false
+          docker image inspect "$IMAGE:$VERSION" --format '{{json .RepoDigests}}'
+      - name: Log out of registry
+        if: always()
+        run: docker logout ghcr.io
