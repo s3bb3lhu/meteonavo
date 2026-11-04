@@ -1,0 +1,51 @@
+/* Last in the cascade: frame overrides preserve the selected layout and palette. */
+.tv[data-frame]:not([data-frame=design]) header>div{border-color:var(--frame-accent,var(--accent));isolation:isolate}
+.tv[data-frame=fine-line] header>div,.tv[data-frame=fine-line] #content{border:1px solid var(--frame-accent,var(--accent));border-radius:15px;outline:1px solid color-mix(in srgb,var(--frame-accent,var(--accent)) 65%,transparent);outline-offset:-5px;box-shadow:inset 0 1px #ffffff50,0 4px 15px #00000020}
+.tv[data-frame=fine-line] .ticker{border-top:1px solid var(--frame-accent,var(--accent));box-shadow:inset 0 4px #ffffff12,inset 0 -4px #ffffff12}.tv[data-frame=fine-line] .ticker-source{border-right:1px solid #ffffff88}
+.tv[data-frame=broadcast-edge] header>div{border-radius:0;border:1px solid var(--frame-accent,var(--accent));border-left:6px solid var(--frame-accent,var(--accent));background:linear-gradient(120deg,color-mix(in srgb,var(--frame-accent,var(--accent)) 65%,#102739),#102739);clip-path:polygon(14px 0,100% 0,calc(100% - 14px) 100%,0 100%)}
+.tv[data-frame=broadcast-edge] header,.tv[data-frame=broadcast-edge] header :is(h1,#clock,#date,#date-weekday,.time-caption,#scene-note){color:#f2f6fb}.tv[data-frame=broadcast-edge] #content{border-left:6px solid var(--frame-accent,var(--accent));border-radius:0 22px 0 0}.tv[data-frame=broadcast-edge] .metric{border-top:3px solid var(--frame-accent,var(--accent));border-radius:0 12px}
+.tv[data-frame=broadcast-edge] .ticker-source{clip-path:polygon(0 0,100% 0,calc(100% - 16px) 100%,0 100%);border-left:5px solid #ffffff88}.tv[data-frame=broadcast-edge] .ticker{border-top:3px solid var(--frame-accent,var(--accent))}
+.tv[data-frame=contour] header>div{border-radius:10px 22px;background:linear-gradient(120deg,color-mix(in srgb,var(--frame-accent,var(--accent)) 24%,var(--bg)),var(--bg))}
+.tv[data-frame=contour] header>div::before{content:'';position:absolute;inset:0;background:repeating-radial-gradient(ellipse at right bottom,transparent 0 10px,color-mix(in srgb,var(--frame-accent,var(--accent)) 40%,transparent) 11px 12px,transparent 13px 22px);opacity:.5;pointer-events:none}
+.tv[data-frame=contour] #content{border:1px solid color-mix(in srgb,var(--frame-accent,var(--accent)) 70%,transparent);border-radius:20px 5px}.tv[data-frame=contour] .ticker::after{content:'';position:absolute;right:0;top:0;width:160px;height:100%;background:repeating-radial-gradient(ellipse at right top,transparent 0 9px,color-mix(in srgb,var(--frame-accent,var(--accent)) 35%,transparent) 10px 11px,transparent 12px 20px);pointer-events:none}.tv[data-frame=contour] .ticker{border-top:1px solid var(--frame-accent,var(--accent))}
+.tv[data-frame=retro-chrome] header>div{border-radius:2px;border:2px solid #d8e4ed;background:linear-gradient(#f4f6f7,#bdc8d0 48%,#f2f4f6 52%,#c4cfd8);box-shadow:inset 0 1px white,inset 0 -2px #61768b}
+.tv[data-frame=retro-chrome] header :is(h1,#clock,#date,#date-weekday,.time-caption,#scene-note){color:#142c44;text-shadow:none}.tv[data-frame=retro-chrome] header>div::before{background:linear-gradient(115deg,transparent 0 80%,color-mix(in srgb,var(--frame-accent,var(--accent)) 80%,transparent) 80% 82%,transparent 82% 85%,var(--frame-accent,var(--accent)) 85% 87%,transparent 87%)}
+.tv[data-frame=retro-chrome] #content{border:3px ridge #bacbd9;border-radius:3px;outline:1px solid var(--frame-accent,var(--accent));outline-offset:-6px}.tv[data-frame=retro-chrome] .metric{border-radius:2px}.tv[data-frame=retro-chrome] .ticker{border-top:3px ridge #dae5ee;border-bottom:3px ridge #dae5ee}.tv[data-frame=retro-chrome] .ticker-source{border-right:4px solid #b4c3d1}
+.tv[data-frame=soft-ribbon] header>div{border-radius:35px 6px;background:linear-gradient(115deg,color-mix(in srgb,var(--frame-accent,var(--accent)) 55%,#132b3d),color-mix(in srgb,var(--frame-accent,var(--accent)) 25%,#1b7988));border:1px solid #ffffff77;box-shadow:inset 0 2px #ffffff66}
+.tv[data-frame=soft-ribbon] header :is(h1,#clock,#date,#date-weekday,.time-caption,#scene-note){color:#f4f7fc}.tv[data-frame=soft-ribbon] #content{border-radius:36px 8px;border:1px solid color-mix(in srgb,var(--frame-accent,var(--accent)) 65%,white);outline:none}.tv[data-frame=soft-ribbon] .metric{border-radius:22px 5px;border-color:#ffffff55}.tv[data-frame=soft-ribbon] .ticker{border-top:2px solid color-mix(in srgb,var(--frame-accent,var(--accent)) 60%,white);border-radius:26px 0 0 0;background:linear-gradient(100deg,var(--frame-accent,var(--accent)),#13364a)}
+.tv[data-frame=corner-brackets] header>div{border:1px solid #ffffff35;border-radius:1px;overflow:visible;background:color-mix(in srgb,#102739 82%,transparent);box-shadow:none}
+.tv[data-frame=corner-brackets] header :is(h1,#clock,#date,#date-weekday,.time-caption,#scene-note){color:#f2f7fb}.tv[data-frame=corner-brackets] header>div::before{content:'';position:absolute;inset:-5px;border:0;background:linear-gradient(var(--frame-accent,var(--accent)),var(--frame-accent,var(--accent))) top left/22px 3px no-repeat,linear-gradient(var(--frame-accent,var(--accent)),var(--frame-accent,var(--accent))) top left/3px 17px no-repeat,linear-gradient(var(--frame-accent,var(--accent)),var(--frame-accent,var(--accent))) bottom right/22px 3px no-repeat,linear-gradient(var(--frame-accent,var(--accent)),var(--frame-accent,var(--accent))) bottom right/3px 17px no-repeat;opacity:1;border-radius:0;pointer-events:none}
+.tv[data-frame=corner-brackets] #content{border:1px solid color-mix(in srgb,var(--frame-accent,var(--accent)) 25%,transparent);border-radius:0;box-shadow:none;background:color-mix(in srgb,var(--bg) 70%,transparent)}.tv[data-frame=corner-brackets] #content::before{content:'';position:absolute;inset:0;width:auto;height:auto;border:0;box-shadow:none;background:linear-gradient(var(--frame-accent,var(--accent)),var(--frame-accent,var(--accent))) top left/28px 4px no-repeat,linear-gradient(var(--frame-accent,var(--accent)),var(--frame-accent,var(--accent))) top left/4px 22px no-repeat,linear-gradient(var(--frame-accent,var(--accent)),var(--frame-accent,var(--accent))) bottom right/28px 4px no-repeat,linear-gradient(var(--frame-accent,var(--accent)),var(--frame-accent,var(--accent))) bottom right/4px 22px no-repeat;opacity:1;border-radius:0;pointer-events:none;z-index:2}.tv[data-frame=corner-brackets] .ticker{border-top:2px solid var(--frame-accent,var(--accent))}
+
+.tv[data-frame]:not([data-frame=design]) .ticker-source{background:linear-gradient(120deg,color-mix(in srgb,var(--frame-accent,var(--accent)) 65%,white),var(--frame-accent,var(--accent)))!important}
+
+/* Optional per-channel fine tuning; preset geometry remains the default. */
+.tv.custom-frame header>div,.tv.custom-frame #content{border-width:var(--frame-width)!important;border-color:var(--frame-accent)!important;border-radius:var(--frame-radius)!important;background:color-mix(in srgb,var(--frame-surface,#102739) var(--frame-opacity),transparent)!important}
+.tv.custom-frame[data-frame=retro-chrome]{--frame-surface:#d8e2e9}
+.tv.custom-frame .ticker{border-top-width:var(--frame-width)!important;border-top-color:var(--frame-accent)!important}
+.tv.custom-frame[data-frame=corner-brackets] header>div::before{background-size:22px var(--frame-width),var(--frame-width) 17px,22px var(--frame-width),var(--frame-width) 17px}
+.tv.custom-frame[data-frame=corner-brackets] #content::before{background-size:28px var(--frame-width),var(--frame-width) 22px,28px var(--frame-width),var(--frame-width) 22px}
+
+/* Shared alignment for every design and frame preset. Ticker rules are unchanged. */
+.tv header{display:grid!important;grid-template-columns:minmax(0,1fr) 230px 260px!important;gap:12px;align-items:stretch;min-height:104px;flex-shrink:0}
+.tv header>div{position:relative;display:flex!important;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-width:0}
+.tv header .time-caption,.tv header #scene-note{display:none!important}
+.tv header #place,.tv header #clock,.tv header #date,.tv header #date-weekday{text-align:center!important;margin:0!important;max-width:100%}
+.tv header #place{width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tv header #clock{font-size:38px;line-height:1.15;white-space:nowrap}
+.tv header #date-weekday{margin-bottom:7px!important}
+.tv header .page-nav{left:50%!important;transform:translateX(-50%);justify-content:center}
+.tv.frame-top-custom header>div{background:color-mix(in srgb,var(--frame-surface,#102739) var(--frame-top-opacity),transparent)!important}
+.tv.frame-middle-custom #content{background:color-mix(in srgb,var(--frame-surface,#102739) var(--frame-middle-opacity),transparent)!important}
+.tv[data-frame=retro-chrome]{--frame-surface:#d8e2e9}
+#tv-logo{position:absolute;z-index:12;pointer-events:none;display:flex;align-items:center;justify-content:center}
+#tv-logo[hidden]{display:none!important}#tv-logo img{display:block;width:100%;height:100%;object-fit:contain}
+#tv-logo.logo-location{transform:translateY(-50%)}
+.tv.has-location-logo .location-frame #place{padding-left:calc(var(--tv-logo-width) + 10px);padding-right:calc(var(--tv-logo-width) + 10px)}
+.country-tv{display:block;height:100%;max-height:none}.country-tv .country-panel{height:100%;border-radius:14px}.country-tv .country-panel>span{bottom:4px;font-size:10px;left:12px}
+.country-tv .country-map{display:block;width:100%;height:100%}
+.country-weather-mark rect{fill:#102b40eb;stroke:#ffffff80;stroke-width:1}
+.country-weather-mark .country-city-name{font:600 16px 'Segoe UI',Arial;fill:#fff}
+.country-weather-mark .country-temperature{font:700 30px 'Segoe UI',Arial;fill:#ffe2a1}
+.country-weather-mark .country-leader{fill:none;stroke:#e7f5ff;stroke-width:1.5}
+.country-map-icon{width:44px;height:38px}.country-map-icon .weather-art{width:44px!important;height:38px!important}

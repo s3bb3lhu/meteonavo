@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "release": "0.1.0",
+  "source_history": "clean initial public snapshot; private development repository not published",
+  "operator_data_in_source": false,
+  "operator_keys_in_image": false,
+  "production_volumes_included": false,
+  "checks": [
+    "source/archive and image compared with configured private values on private host; no raw values exported",
+    "synthetic address fixtures",
+    "fresh install without operator credentials",
+    "Debian Chromium replaces proprietary Google Chrome",
+    "corresponding Debian source bundle exported with release"
+  ],
+  "limits": "Checks cover the released snapshot and known current private values. They do not guarantee absence of arbitrary unknown or obfuscated data. Runtime Google browser keys are intentionally visible to their operator’s browser and Google."
+}

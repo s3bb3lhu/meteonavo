@@ -1,0 +1,2862 @@
+{
+  "Einstellungen": [
+    "Settings",
+    "Paramètres",
+    "Ajustes"
+  ],
+  "Übersicht": [
+    "Overview",
+    "Vue d’ensemble",
+    "Resumen"
+  ],
+  "Kanäle & Adressen": [
+    "Channels & addresses",
+    "Chaînes et adresses",
+    "Canales y direcciones"
+  ],
+  "Designauswahl": [
+    "Design selection",
+    "Choix du design",
+    "Selección de diseño"
+  ],
+  "Musik / Radio": [
+    "Music / radio",
+    "Musique / radio",
+    "Música / radio"
+  ],
+  "Ausgaben & Quellen": [
+    "Outputs & sources",
+    "Sorties et sources",
+    "Salidas y fuentes"
+  ],
+  "Wetterkameras": [
+    "Weather cameras",
+    "Webcams météo",
+    "Cámaras meteorológicas"
+  ],
+  "← Zur Kanalübersicht": [
+    "← Channel overview",
+    "← Vue des chaînes",
+    "← Resumen de canales"
+  ],
+  "STUDIO EINSTELLUNGEN": [
+    "STUDIO SETTINGS",
+    "PARAMÈTRES DU STUDIO",
+    "AJUSTES DEL ESTUDIO"
+  ],
+  "Dein Standort, deine Wetterseiten, deine Nachrichten.": [
+    "Your location, weather pages and news.",
+    "Votre lieu, vos pages météo et vos actualités.",
+    "Tu ubicación, tus páginas del tiempo y tus noticias."
+  ],
+  "Kanal auswählen": [
+    "Select channel",
+    "Choisir une chaîne",
+    "Seleccionar canal"
+  ],
+  "Angemeldet als": [
+    "Signed in as",
+    "Connecté en tant que",
+    "Sesión iniciada como"
+  ],
+  "Mein Konto": [
+    "My account",
+    "Mon compte",
+    "Mi cuenta"
+  ],
+  "Abmelden": [
+    "Sign out",
+    "Se déconnecter",
+    "Cerrar sesión"
+  ],
+  "Serverempfehlung & Bildrate": [
+    "Server recommendation & frame rate",
+    "Conseils serveur et fréquence d’images",
+    "Recomendación del servidor y fotogramas"
+  ],
+  "Server wird geprüft …": [
+    "Checking server …",
+    "Vérification du serveur…",
+    "Comprobando el servidor…"
+  ],
+  "Empfehlung aktualisieren": [
+    "Refresh recommendation",
+    "Actualiser les conseils",
+    "Actualizar recomendación"
+  ],
+  "01 / STANDORT": [
+    "01 / LOCATION",
+    "01 / LOCALISATION",
+    "01 / UBICACIÓN"
+  ],
+  "Adresse statt nur Ort": [
+    "Set an exact address",
+    "Définir une adresse précise",
+    "Configurar una dirección exacta"
+  ],
+  "Wähle einen Treffer aus der Adresssuche und prüfe dessen Genauigkeit. Die Wetterberechnung nutzt die GPS-Koordinaten; oben im Wetterbild steht weiterhin die Ortsbezeichnung.": [
+    "Select an address search result and check its accuracy. Weather data uses GPS coordinates; the weather display still shows the place name.",
+    "Choisissez un résultat et vérifiez sa précision. La météo utilise les coordonnées GPS ; l’écran météo affiche toujours le nom du lieu.",
+    "Selecciona un resultado y comprueba su precisión. Los datos meteorológicos usan las coordenadas GPS; la pantalla sigue mostrando el nombre del lugar."
+  ],
+  "Kanalname": [
+    "Channel name",
+    "Nom de la chaîne",
+    "Nombre del canal"
+  ],
+  "Land": [
+    "Country",
+    "Pays",
+    "País"
+  ],
+  "Vollständige Adresse": [
+    "Full address",
+    "Adresse complète",
+    "Dirección completa"
+  ],
+  "Straße, Hausnummer, PLZ, Ort": [
+    "Street, number, postal code, city",
+    "Rue, numéro, code postal, ville",
+    "Calle, número, código postal, localidad"
+  ],
+  "Bundesland / Region": [
+    "State / region",
+    "État / région",
+    "Estado / región"
+  ],
+  "Adresse suchen": [
+    "Search address",
+    "Rechercher une adresse",
+    "Buscar dirección"
+  ],
+  "Adressvorschläge": [
+    "Address suggestions",
+    "Adresses proposées",
+    "Direcciones sugeridas"
+  ],
+  "Treffer auswählen …": [
+    "Select a result …",
+    "Choisir un résultat…",
+    "Seleccionar un resultado…"
+  ],
+  "Adressdaten:": [
+    "Address data:",
+    "Données d’adresse :",
+    "Datos de direcciones:"
+  ],
+  "© OpenStreetMap-Mitwirkende": [
+    "© OpenStreetMap contributors",
+    "© Contributeurs OpenStreetMap",
+    "© Colaboradores de OpenStreetMap"
+  ],
+  "· Photon. Keine Garantie für hausgenaue Treffer. Suche wird nur per Klick ausgelöst.": [
+    "· Photon. House-level accuracy is not guaranteed. Search runs only when clicked.",
+    "· Photon. La précision au numéro de rue n’est pas garantie. La recherche est lancée uniquement au clic.",
+    "· Photon. No se garantiza precisión a nivel de número. La búsqueda solo se realiza al hacer clic."
+  ],
+  "GPS-Koordinaten direkt eingeben": [
+    "Enter GPS coordinates directly",
+    "Saisir directement les coordonnées GPS",
+    "Introducir coordenadas GPS directamente"
+  ],
+  "Alternativ zur Adresssuche: Breitengrad und Längengrad im Dezimalformat eintragen. Eine Straßenadresse ist dafür nicht erforderlich. Bitte Land und Ortsnamen passend zum GPS-Punkt wählen.": [
+    "Alternatively, enter decimal latitude and longitude. No street address is required. Choose the country and place name matching the GPS point.",
+    "Vous pouvez aussi saisir latitude et longitude en degrés décimaux, sans adresse postale. Choisissez le pays et le lieu correspondant au point GPS.",
+    "También puedes introducir latitud y longitud decimales sin dirección postal. Elige el país y el nombre correspondientes al punto GPS."
+  ],
+  "Breitengrad (Latitude, −90 bis 90)": [
+    "Latitude (−90 to 90)",
+    "Latitude (−90 à 90)",
+    "Latitud (−90 a 90)"
+  ],
+  "z. B. 38.6417727": [
+    "e.g. 38.6417727",
+    "p. ex. 38.6417727",
+    "p. ej. 38.6417727"
+  ],
+  "Längengrad (Longitude, −180 bis 180)": [
+    "Longitude (−180 to 180)",
+    "Longitude (−180 à 180)",
+    "Longitud (−180 a 180)"
+  ],
+  "z. B. 0.0298037": [
+    "e.g. 0.0298037",
+    "p. ex. 0.0298037",
+    "p. ej. 0.0298037"
+  ],
+  "Koordinaten gemeinsam einfügen": [
+    "Paste a coordinate pair",
+    "Coller les deux coordonnées",
+    "Pegar ambas coordenadas"
+  ],
+  "GPS-Koordinaten übernehmen": [
+    "Apply GPS coordinates",
+    "Appliquer les coordonnées GPS",
+    "Aplicar coordenadas GPS"
+  ],
+  "Position auf Karte prüfen ↗": [
+    "Check position on map ↗",
+    "Vérifier la position sur la carte ↗",
+    "Comprobar posición en el mapa ↗"
+  ],
+  "Reihenfolge: Breitengrad, Längengrad. Dezimalkomma ist möglich; ein Koordinatenpaar dann mit Semikolon trennen. Die Übernahme wird erst mit „Kanal speichern“ dauerhaft gespeichert.": [
+    "Order: latitude, longitude. Decimal commas are supported; separate the pair with a semicolon in that case. Click “Save channel” to store it permanently.",
+    "Ordre : latitude, longitude. La virgule décimale est acceptée ; séparez alors les deux valeurs par un point-virgule. Cliquez sur « Enregistrer la chaîne » pour conserver le point.",
+    "Orden: latitud, longitud. Se admite coma decimal; en ese caso separa las coordenadas con punto y coma. Pulsa «Guardar canal» para conservarlas."
+  ],
+  "Ortsname im Wetterbild": [
+    "Place name on weather display",
+    "Nom du lieu à l’écran météo",
+    "Nombre del lugar en pantalla"
+  ],
+  "z. B. Calp / Calpe": [
+    "e.g. Calp / Calpe",
+    "p. ex. Calp / Calpe",
+    "p. ej. Calp / Calpe"
+  ],
+  "Landkreis / Bezirk": [
+    "County / district",
+    "Département / district",
+    "Provincia / distrito"
+  ],
+  "02 / PROGRAMM": [
+    "02 / PROGRAMME",
+    "02 / PROGRAMME",
+    "02 / PROGRAMACIÓN"
+  ],
+  "Wetterseiten & Nachrichten": [
+    "Weather pages & news",
+    "Pages météo et actualités",
+    "Páginas del tiempo y noticias"
+  ],
+  "Seiten anhaken und den Sendeplatz daneben wählen. Die Reihenfolge gilt nur für diesen Kanal.": [
+    "Tick pages and choose their position. The order applies only to this channel.",
+    "Cochez les pages et choisissez leur position. L’ordre s’applique uniquement à cette chaîne.",
+    "Marca las páginas y elige su posición. El orden solo se aplica a este canal."
+  ],
+  "Seitenwechsel in Sekunden": [
+    "Page duration in seconds",
+    "Durée des pages en secondes",
+    "Duración de cada página en segundos"
+  ],
+  "RSS-Link für Nachrichten": [
+    "News RSS URL",
+    "URL RSS des actualités",
+    "URL RSS de noticias"
+  ],
+  "Radar-Kartenstil": [
+    "Radar map style",
+    "Style de carte du radar",
+    "Estilo del mapa del radar"
+  ],
+  "Straßenkarte": [
+    "Street map",
+    "Plan des rues",
+    "Mapa de calles"
+  ],
+  "Straßenkarte · Dunkel": [
+    "Street map · dark",
+    "Plan des rues · sombre",
+    "Mapa de calles · oscuro"
+  ],
+  "Satellitenbild / Luftbild": [
+    "Satellite / aerial imagery",
+    "Image satellite / aérienne",
+    "Imagen satélite / aérea"
+  ],
+  "Satellitenbild · Nachtoptik (abgedunkelt)": [
+    "Satellite · night appearance (dimmed)",
+    "Satellite · aspect nocturne (assombri)",
+    "Satélite · aspecto nocturno (oscurecido)"
+  ],
+  "Schlichte Übersichtskarte": [
+    "Simple overview map",
+    "Carte d’ensemble simple",
+    "Mapa general sencillo"
+  ],
+  "Alle Stile verwenden Radar-Zoom beziehungsweise Radar-Distanz und die gespeicherte GPS-Position. Satellitenbilder sind Archivaufnahmen. Nachtoptik ist ein Farbfilter, keine nächtliche Liveaufnahme.": [
+    "All styles use the radar zoom or distance and the saved GPS position. Satellite imagery is archival. Night appearance is a colour filter, not live night imagery.",
+    "Tous les styles utilisent le zoom ou la distance du radar et le point GPS enregistré. Les images satellites sont des archives. Le mode nocturne est un filtre, pas une prise de vue nocturne en direct.",
+    "Todos los estilos usan el zoom o la distancia del radar y la posición GPS guardada. Las imágenes satélite son de archivo. El aspecto nocturno es un filtro, no una imagen nocturna en directo."
+  ],
+  "Radar-Distanz in km": [
+    "Radar distance in km",
+    "Distance du radar en km",
+    "Distancia del radar en km"
+  ],
+  "Leer: bisherigen Ausschnitt verwenden": [
+    "Empty: keep the current view",
+    "Vide : conserver la vue actuelle",
+    "Vacío: mantener la vista actual"
+  ],
+  "Ungefähre Entfernung vom Mittelpunkt bis zum linken/rechten Bildrand (50–5000 km). Beispiel: 200 km ergibt etwa 400 km Bildbreite. Die Nord-Süd-Ausdehnung hängt vom Bildformat ab. Ohne Angabe gilt der bisherige Ausschnitt.": [
+    "Approximate distance from the centre to the left/right edge (50–5000 km). For example, 200 km gives about 400 km of map width. North–south coverage depends on the aspect ratio. Leave empty to keep the current view.",
+    "Distance approximative du centre au bord gauche/droit (50–5000 km). Par exemple, 200 km donnent environ 400 km de largeur. L’étendue nord-sud dépend du format. Laissez vide pour conserver la vue actuelle.",
+    "Distancia aproximada del centro al borde izquierdo/derecho (50–5000 km). Por ejemplo, 200 km equivalen a unos 400 km de ancho. La extensión norte-sur depende del formato. Déjalo vacío para mantener la vista."
+  ],
+  "Radar-Ausschnitt ohne Distanzangabe": [
+    "Radar view without a distance setting",
+    "Vue radar sans distance définie",
+    "Vista del radar sin distancia definida"
+  ],
+  "Sehr weiträumig": [
+    "Very wide",
+    "Très large",
+    "Muy amplia"
+  ],
+  "Weiträumig": [
+    "Wide",
+    "Large",
+    "Amplia"
+  ],
+  "Großregion": [
+    "Large region",
+    "Grande région",
+    "Gran región"
+  ],
+  "Region": [
+    "Region",
+    "Région",
+    "Región"
+  ],
+  "Umgebung": [
+    "Surroundings",
+    "Environs",
+    "Alrededores"
+  ],
+  "Nähere Umgebung": [
+    "Local area",
+    "Zone proche",
+    "Zona cercana"
+  ],
+  "Detail": [
+    "Detail",
+    "Détail",
+    "Detalle"
+  ],
+  "Echte vergangene Radar-Komposite von RainViewer für den privaten Einsatz, keine Zukunftsprognose. Auf den GPS-Punkt des Kanals zentriert.": [
+    "Real past radar composites from RainViewer for private use, not a future forecast. Centred on the channel’s GPS point.",
+    "Composites radar réels et passés de RainViewer pour un usage privé, sans prévision future. Centrés sur le point GPS de la chaîne.",
+    "Composiciones reales de radar pasado de RainViewer para uso privado, no un pronóstico futuro. Centradas en el punto GPS del canal."
+  ],
+  "Verkehrsradius in km": [
+    "Traffic radius in km",
+    "Rayon du trafic en km",
+    "Radio de tráfico en km"
+  ],
+  "Orte für die Landeswetterseite auswählen": [
+    "Select places for country weather",
+    "Choisir les lieux de la météo nationale",
+    "Elegir localidades para el tiempo del país"
+  ],
+  "Bis zu acht Orte im gewählten Land. Ohne eigene Auswahl werden Standort und größere Orte automatisch gezeigt.": [
+    "Up to eight places in the chosen country. Without a custom selection, the location and major cities appear automatically.",
+    "Jusqu’à huit lieux dans le pays choisi. Sans sélection, votre lieu et de grandes villes sont affichés automatiquement.",
+    "Hasta ocho localidades del país elegido. Sin selección propia se muestran tu ubicación y las principales ciudades."
+  ],
+  "Ort im gewählten Land": [
+    "Place in the chosen country",
+    "Lieu dans le pays choisi",
+    "Localidad del país elegido"
+  ],
+  "Orte suchen": [
+    "Search places",
+    "Rechercher des lieux",
+    "Buscar localidades"
+  ],
+  "Treffer": [
+    "Results",
+    "Résultats",
+    "Resultados"
+  ],
+  "Ort wählen …": [
+    "Select a place …",
+    "Choisir un lieu…",
+    "Elegir una localidad…"
+  ],
+  "Ort hinzufügen": [
+    "Add place",
+    "Ajouter un lieu",
+    "Añadir localidad"
+  ],
+  "Amtliche regionale Wetterwarnungen zuerst im Ticker": [
+    "Show official regional weather alerts first in the ticker",
+    "Afficher d’abord les alertes météo officielles régionales",
+    "Mostrar primero los avisos meteorológicos oficiales regionales"
+  ],
+  "Bestätigte Warnregion (optional)": [
+    "Confirmed alert region (optional)",
+    "Zone d’alerte confirmée (facultatif)",
+    "Región de avisos confirmada (opcional)"
+  ],
+  "Automatisch über DWD / Adressregion": [
+    "Automatic via DWD / address region",
+    "Automatique via DWD / région de l’adresse",
+    "Automático mediante DWD / región de la dirección"
+  ],
+  "Verfügbare Warnregionen laden": [
+    "Load available alert regions",
+    "Charger les zones d’alerte disponibles",
+    "Cargar regiones de avisos disponibles"
+  ],
+  "Deutschland: automatische DWD-Kreiszuordnung. Andere Länder: genaue Übereinstimmung mit der Adressregion oder bestätigte Warnregion. Nicht zuordenbare oder ausgefallene Quellen werden gekennzeichnet. MeteoAlarm / nationale Wetterdienste, CC BY 4.0.": [
+    "Germany: automatic DWD district matching. Other countries: exact address-region match or a confirmed alert region. Unmatched or unavailable sources are marked. MeteoAlarm / national weather services, CC BY 4.0.",
+    "Allemagne : correspondance automatique des districts DWD. Autres pays : région d’adresse exacte ou zone confirmée. Les sources non associées ou indisponibles sont signalées. MeteoAlarm / services nationaux, CC BY 4.0.",
+    "Alemania: asignación automática de distritos DWD. Otros países: coincidencia exacta con la región de la dirección o región confirmada. Se indican las fuentes no asignables o no disponibles. MeteoAlarm / servicios nacionales, CC BY 4.0."
+  ],
+  "Kanal aktivieren und HLS-Stream erzeugen": [
+    "Enable channel and generate HLS stream",
+    "Activer la chaîne et générer le flux HLS",
+    "Activar canal y generar flujo HLS"
+  ],
+  "Kanal speichern": [
+    "Save channel",
+    "Enregistrer la chaîne",
+    "Guardar canal"
+  ],
+  "Grafische Vorschau ↗": [
+    "Visual preview ↗",
+    "Aperçu graphique ↗",
+    "Vista previa gráfica ↗"
+  ],
+  "Stream abspielen ↗": [
+    "Play stream ↗",
+    "Lire le flux ↗",
+    "Reproducir flujo ↗"
+  ],
+  "Radar ↗": [
+    "Radar ↗",
+    "Radar ↗",
+    "Radar ↗"
+  ],
+  "01 / DESIGNVORLAGE": [
+    "01 / DESIGN TEMPLATE",
+    "01 / MODÈLE VISUEL",
+    "01 / PLANTILLA DE DISEÑO"
+  ],
+  "Alle Studio-Designs": [
+    "All channel designs",
+    "Tous les designs de chaîne",
+    "Todos los diseños de canal"
+  ],
+  "Jeder Kanal hat sein eigenes Design. Wähle eine Vorlage und speichere sie für den oben ausgewählten Kanal.": [
+    "Each channel has its own design. Choose a template and save it for the selected channel.",
+    "Chaque chaîne a son propre design. Choisissez un modèle et enregistrez-le pour la chaîne sélectionnée.",
+    "Cada canal tiene su diseño. Elige una plantilla y guárdala para el canal seleccionado."
+  ],
+  "Eigene Ortsfotos für die Fotodesigns": [
+    "Your location photos for photo designs",
+    "Vos photos locales pour les designs photo",
+    "Tus fotos locales para los diseños fotográficos"
+  ],
+  "Standardbild oder gezielt für Tageszeit und Wetter auswählen. Vorhandene Fotos bleiben auf diesem Server. Maximal 8 MB; JPEG, PNG oder WebP.": [
+    "Choose a default image or one for a specific time and weather condition. Existing photos remain on this server. Maximum 8 MB; JPEG, PNG or WebP.",
+    "Choisissez une image par défaut ou adaptée à l’heure et à la météo. Les photos existantes restent sur ce serveur. Maximum 8 Mo ; JPEG, PNG ou WebP.",
+    "Elige una imagen predeterminada o específica para la hora y el tiempo. Las fotos permanecen en este servidor. Máximo 8 MB; JPEG, PNG o WebP."
+  ],
+  "Tageszeit": [
+    "Time of day",
+    "Moment de la journée",
+    "Momento del día"
+  ],
+  "Alle Tageszeiten": [
+    "Any time of day",
+    "Tous les moments",
+    "Cualquier momento del día"
+  ],
+  "Morgen": [
+    "Dawn",
+    "Matin",
+    "Amanecer"
+  ],
+  "Tag": [
+    "Day",
+    "Jour",
+    "Día"
+  ],
+  "Abend": [
+    "Dusk",
+    "Soir",
+    "Atardecer"
+  ],
+  "Nacht": [
+    "Night",
+    "Nuit",
+    "Noche"
+  ],
+  "Wettersituation": [
+    "Weather condition",
+    "Conditions météo",
+    "Condiciones meteorológicas"
+  ],
+  "Jedes Wetter": [
+    "Any weather",
+    "Tous les temps",
+    "Cualquier tiempo"
+  ],
+  "Klar / sonnig": [
+    "Clear / sunny",
+    "Clair / ensoleillé",
+    "Despejado / soleado"
+  ],
+  "Bewölkt": [
+    "Cloudy",
+    "Nuageux",
+    "Nublado"
+  ],
+  "Regen": [
+    "Rain",
+    "Pluie",
+    "Lluvia"
+  ],
+  "Schnee": [
+    "Snow",
+    "Neige",
+    "Nieve"
+  ],
+  "Nebel": [
+    "Fog",
+    "Brouillard",
+    "Niebla"
+  ],
+  "Gewitter": [
+    "Thunderstorm",
+    "Orage",
+    "Tormenta"
+  ],
+  "Ortsfoto": [
+    "Location photo",
+    "Photo locale",
+    "Foto local"
+  ],
+  "Bildnachweis": [
+    "Image credit",
+    "Crédit photo",
+    "Crédito de imagen"
+  ],
+  "Fotograf / Quelle": [
+    "Photographer / source",
+    "Photographe / source",
+    "Fotógrafo / fuente"
+  ],
+  "Ortsfoto hochladen": [
+    "Upload location photo",
+    "Importer une photo locale",
+    "Subir foto local"
+  ],
+  "Eigene Bilder haben Vorrang vor automatischen Archivfotos. Automatische Wikimedia-Suche kann vom Anbieter gesperrt sein; dann bleibt der gestaltete Hintergrund sichtbar. Fotos sind keine Liveaufnahmen.": [
+    "Your images take priority over automatic archive photos. Wikimedia may block automatic searches; the designed background then stays visible. Photos are not live images.",
+    "Vos images sont prioritaires sur les photos d’archives automatiques. Wikimedia peut bloquer la recherche ; le fond graphique reste alors visible. Les photos ne sont pas en direct.",
+    "Tus imágenes tienen prioridad sobre las fotos de archivo automáticas. Wikimedia puede bloquear las búsquedas; entonces se mantiene el fondo diseñado. Las fotos no son imágenes en directo."
+  ],
+  "02 / FEINSCHLIFF": [
+    "02 / FINE TUNING",
+    "02 / FINITIONS",
+    "02 / AJUSTES FINOS"
+  ],
+  "Icons, Farben & Bewegung": [
+    "Icons, colours & motion",
+    "Icônes, couleurs et animations",
+    "Iconos, colores y movimiento"
+  ],
+  "Akzentfarbe": [
+    "Accent colour",
+    "Couleur d’accent",
+    "Color de acento"
+  ],
+  "Hintergrundfarbe": [
+    "Background colour",
+    "Couleur du fond",
+    "Color de fondo"
+  ],
+  "Rahmensystem": [
+    "Frame system",
+    "Style de cadres",
+    "Sistema de marcos"
+  ],
+  "Rahmen der Designvorlage": [
+    "Use template frames",
+    "Cadres du modèle",
+    "Marcos de la plantilla"
+  ],
+  "Unabhängig vom Design wählbar. Die Akzentfarbe steuert auch die Rahmen.": [
+    "Choose independently of the design. The accent colour also controls the frames.",
+    "Choix indépendant du design. La couleur d’accent s’applique aussi aux cadres.",
+    "Se elige independientemente del diseño. El color de acento también se aplica a los marcos."
+  ],
+  "Rahmen konfigurieren": [
+    "Configure frames",
+    "Configurer les cadres",
+    "Configurar marcos"
+  ],
+  "Eigene Rahmenwerte verwenden": [
+    "Use custom frame settings",
+    "Utiliser des valeurs personnalisées",
+    "Usar ajustes propios de marcos"
+  ],
+  "Farbe, Linie und Rundung gelten für D1–D6 mit aktivierten eigenen Werten. Deckkraft oben und Mitte funktioniert unabhängig davon für alle Designs: 0 = transparent, 100 = deckend, leer = Originalwert. Text und Newsticker bleiben unverändert.": [
+    "Custom colour, line and corners apply to D1–D6 when enabled. Top and middle opacity work independently for all designs: 0 = transparent, 100 = opaque, empty = original. Text and news ticker remain unchanged.",
+    "Couleur, ligne et arrondis personnalisés s’appliquent à D1–D6 une fois activés. L’opacité du haut et du centre est indépendante pour tous les designs : 0 = transparent, 100 = opaque, vide = origine. Texte et bandeau restent inchangés.",
+    "El color, la línea y las esquinas propios se aplican a D1–D6 al activarlos. La opacidad superior y central funciona aparte en todos los diseños: 0 = transparente, 100 = opaco, vacío = original. El texto y el ticker no cambian."
+  ],
+  "Rahmenfarbe": [
+    "Frame colour",
+    "Couleur des cadres",
+    "Color de los marcos"
+  ],
+  "Linienstärke (1–8 px)": [
+    "Line width (1–8 px)",
+    "Épaisseur (1–8 px)",
+    "Grosor (1–8 px)"
+  ],
+  "Rundung (0–48 px)": [
+    "Corner radius (0–48 px)",
+    "Arrondi (0–48 px)",
+    "Radio de esquinas (0–48 px)"
+  ],
+  "Deckkraft oben (0–100 %)": [
+    "Top opacity (0–100%)",
+    "Opacité en haut (0–100 %)",
+    "Opacidad superior (0–100 %)"
+  ],
+  "Deckkraft Mitte (0–100 %)": [
+    "Middle opacity (0–100%)",
+    "Opacité au centre (0–100 %)",
+    "Opacidad central (0–100 %)"
+  ],
+  "Originalwert der Vorlage": [
+    "Original template value",
+    "Valeur d’origine du modèle",
+    "Valor original de la plantilla"
+  ],
+  "Originalrahmen verwenden": [
+    "Restore original frames",
+    "Rétablir les cadres d’origine",
+    "Restaurar marcos originales"
+  ],
+  "Änderungen werden erst mit „Design für diesen Kanal speichern“ übernommen.": [
+    "Changes take effect when you click “Save design for this channel”.",
+    "Les modifications sont appliquées avec « Enregistrer le design de cette chaîne ».",
+    "Los cambios se aplican al pulsar «Guardar diseño de este canal»."
+  ],
+  "Eigenes TV-Logo": [
+    "Your TV logo",
+    "Votre logo TV",
+    "Tu logotipo de TV"
+  ],
+  "Logo hochladen": [
+    "Upload logo",
+    "Importer un logo",
+    "Subir logotipo"
+  ],
+  "PNG oder WebP mit transparentem Hintergrund empfohlen. Maximal 5 MB. Das Logo wird nur diesem Kanal zugeordnet.": [
+    "PNG or WebP with a transparent background is recommended. Maximum 5 MB. The logo belongs only to this channel.",
+    "PNG ou WebP avec fond transparent recommandé. Maximum 5 Mo. Le logo est associé uniquement à cette chaîne.",
+    "Se recomienda PNG o WebP con fondo transparente. Máximo 5 MB. El logotipo solo se asigna a este canal."
+  ],
+  "Logo entfernen": [
+    "Remove logo",
+    "Supprimer le logo",
+    "Eliminar logotipo"
+  ],
+  "Logo-Position": [
+    "Logo position",
+    "Position du logo",
+    "Posición del logotipo"
+  ],
+  "Ausgeblendet": [
+    "Hidden",
+    "Masqué",
+    "Oculto"
+  ],
+  "Links im Ortsrahmen": [
+    "Left in the location frame",
+    "À gauche dans le cadre du lieu",
+    "A la izquierda en el marco del lugar"
+  ],
+  "Frei im Sendebild": [
+    "Free position on screen",
+    "Position libre à l’écran",
+    "Posición libre en pantalla"
+  ],
+  "Breite (30–250 px)": [
+    "Width (30–250 px)",
+    "Largeur (30–250 px)",
+    "Ancho (30–250 px)"
+  ],
+  "Deckkraft (0–100 %)": [
+    "Opacity (0–100%)",
+    "Opacité (0–100 %)",
+    "Opacidad (0–100 %)"
+  ],
+  "Horizontale Position (0–100 %)": [
+    "Horizontal position (0–100%)",
+    "Position horizontale (0–100 %)",
+    "Posición horizontal (0–100 %)"
+  ],
+  "Vertikale Position (0–100 %)": [
+    "Vertical position (0–100%)",
+    "Position verticale (0–100 %)",
+    "Posición vertical (0–100 %)"
+  ],
+  "Positionen gelten im Modus „Frei“. Das Seitenverhältnis des Logos bleibt erhalten; der Newsticker wird nicht überdeckt. Nach dem Einstellen Design speichern.": [
+    "Positions apply in free-position mode. The logo keeps its aspect ratio and does not cover the ticker. Save the design after adjusting.",
+    "Les positions s’appliquent en mode libre. Le logo conserve ses proportions et ne recouvre pas le bandeau. Enregistrez le design après réglage.",
+    "Las posiciones se aplican en modo libre. El logotipo conserva sus proporciones y no tapa el ticker. Guarda el diseño al terminar."
+  ],
+  "Landschaftshintergrund": [
+    "Landscape background",
+    "Fond paysager",
+    "Fondo de paisaje"
+  ],
+  "Bisheriger Hintergrund / eigenes Ortsfoto": [
+    "Current background / your location photo",
+    "Fond actuel / votre photo locale",
+    "Fondo actual / tu foto local"
+  ],
+  "Automatisch nach Tageszeit und Wetter": [
+    "Automatic by time and weather",
+    "Automatique selon l’heure et la météo",
+    "Automático según hora y tiempo"
+  ],
+  "A1 · Morgenlicht": [
+    "A1 · Dawn light",
+    "A1 · Lumière du matin",
+    "A1 · Luz del amanecer"
+  ],
+  "A2 · Sonniger Tag": [
+    "A2 · Sunny day",
+    "A2 · Journée ensoleillée",
+    "A2 · Día soleado"
+  ],
+  "A3 · Regen": [
+    "A3 · Rain",
+    "A3 · Pluie",
+    "A3 · Lluvia"
+  ],
+  "A4 · Abendlicht": [
+    "A4 · Dusk light",
+    "A4 · Lumière du soir",
+    "A4 · Luz del atardecer"
+  ],
+  "A5 · Nacht": [
+    "A5 · Night",
+    "A5 · Nuit",
+    "A5 · Noche"
+  ],
+  "A6 · Winter": [
+    "A6 · Winter",
+    "A6 · Hiver",
+    "A6 · Invierno"
+  ],
+  "Erzeugte Fotolandschaften zur Gestaltung, keine Liveaufnahmen und keine ortsgenauen Fotos. Wetterdaten bleiben echte Modellwerte.": [
+    "Generated photographic landscapes for styling, not live or location-specific photos. Weather data remains real model data.",
+    "Paysages photographiques générés pour le design, ni en direct ni propres au lieu. Les données météo restent de vraies données de modèle.",
+    "Paisajes fotográficos generados para decorar; no son imágenes en directo ni del lugar exacto. Los datos siguen siendo valores reales de modelos."
+  ],
+  "Blau": [
+    "Blue",
+    "Bleu",
+    "Azul"
+  ],
+  "Rot": [
+    "Red",
+    "Rouge",
+    "Rojo"
+  ],
+  "Grün": [
+    "Green",
+    "Vert",
+    "Verde"
+  ],
+  "Gold": [
+    "Gold",
+    "Or",
+    "Dorado"
+  ],
+  "Violett": [
+    "Violet",
+    "Violet",
+    "Violeta"
+  ],
+  "Lila": [
+    "Purple",
+    "Mauve",
+    "Lila"
+  ],
+  "Royal Blau": [
+    "Royal blue",
+    "Bleu roi",
+    "Azul real"
+  ],
+  "Dark Purple": [
+    "Dark purple",
+    "Violet foncé",
+    "Morado oscuro"
+  ],
+  "Anthrazit": [
+    "Anthracite",
+    "Anthracite",
+    "Antracita"
+  ],
+  "Hintergrund- und Seitenanimationen einschalten": [
+    "Enable background and page animations",
+    "Activer les animations du fond et des pages",
+    "Activar animaciones de fondo y páginas"
+  ],
+  "Vorschau der aktuellen Rahmenwerte": [
+    "Preview current frame settings",
+    "Aperçu des réglages des cadres",
+    "Vista previa de los ajustes de marcos"
+  ],
+  "Design für diesen Kanal speichern": [
+    "Save design for this channel",
+    "Enregistrer le design de cette chaîne",
+    "Guardar diseño de este canal"
+  ],
+  "Designvorschau ↗": [
+    "Design preview ↗",
+    "Aperçu du design ↗",
+    "Vista previa del diseño ↗"
+  ],
+  "Hochgeladenes TV-Logo": [
+    "Uploaded TV logo",
+    "Logo TV importé",
+    "Logotipo de TV subido"
+  ],
+  "01 / TONQUELLE FÜR DIESEN KANAL": [
+    "01 / AUDIO FOR THIS CHANNEL",
+    "01 / AUDIO DE CETTE CHAÎNE",
+    "01 / AUDIO DE ESTE CANAL"
+  ],
+  "Dein Sound zum Wetter": [
+    "Your soundtrack for the weather",
+    "Votre ambiance sonore météo",
+    "Tu sonido para el tiempo"
+  ],
+  "Ohne Ton": [
+    "Silent",
+    "Sans son",
+    "Sin sonido"
+  ],
+  "Eigene Musik-Playlist": [
+    "Your music playlist",
+    "Votre playlist musicale",
+    "Tu lista musical"
+  ],
+  "Radiosender": [
+    "Radio station",
+    "Station de radio",
+    "Emisora de radio"
+  ],
+  "Musik-Playlist für den Kanal": [
+    "Music playlist for this channel",
+    "Playlist musicale de la chaîne",
+    "Lista musical del canal"
+  ],
+  "Lautstärke": [
+    "Volume",
+    "Volume",
+    "Volumen"
+  ],
+  "Kein Radiosender gewählt": [
+    "No radio station selected",
+    "Aucune station sélectionnée",
+    "Ninguna emisora seleccionada"
+  ],
+  "Tonquelle für diesen Kanal speichern": [
+    "Save audio for this channel",
+    "Enregistrer l’audio de cette chaîne",
+    "Guardar audio de este canal"
+  ],
+  "Der Ton wird im HLS-Stream ausgegeben. Die grafische Live-Vorschau ist stumm. Bei einem Radioausfall bleibt das Wetterbild mit Stille auf Sendung.": [
+    "Audio is included in the HLS stream. The visual preview is silent. If radio fails, the weather display continues broadcasting silently.",
+    "Le son est diffusé dans le flux HLS. L’aperçu graphique est muet. En cas de panne radio, l’image météo continue sans son.",
+    "El audio se incluye en el flujo HLS. La vista previa gráfica es silenciosa. Si falla la radio, la imagen meteorológica continúa sin sonido."
+  ],
+  "02 / EIGENE MUSIK": [
+    "02 / YOUR MUSIC",
+    "02 / VOTRE MUSIQUE",
+    "02 / TU MÚSICA"
+  ],
+  "Musikbibliothek & Playlists": [
+    "Music library & playlists",
+    "Bibliothèque musicale et playlists",
+    "Biblioteca musical y listas"
+  ],
+  "Dateien bleiben auf deinem Server. Unterstützt werden MP3, WAV, FLAC, OGG und M4A; bis 100 MB pro Datei, die ersten zwei Stunden je Datei. Verwende Musik, für deren Nutzung du die erforderlichen Rechte hast.": [
+    "Files stay on your server. MP3, WAV, FLAC, OGG and M4A are supported; up to 100 MB and the first two hours per file. Use music you have the necessary rights to use.",
+    "Les fichiers restent sur votre serveur. MP3, WAV, FLAC, OGG et M4A sont acceptés ; 100 Mo et les deux premières heures par fichier. Utilisez de la musique dont vous possédez les droits nécessaires.",
+    "Los archivos permanecen en tu servidor. Se admiten MP3, WAV, FLAC, OGG y M4A; hasta 100 MB y las dos primeras horas de cada archivo. Usa música para la que tengas los derechos necesarios."
+  ],
+  "Musikdateien hinzufügen": [
+    "Add music files",
+    "Ajouter des fichiers musicaux",
+    "Añadir archivos de música"
+  ],
+  "Musik hochladen": [
+    "Upload music",
+    "Importer de la musique",
+    "Subir música"
+  ],
+  "Deine Titel": [
+    "Your tracks",
+    "Vos titres",
+    "Tus pistas"
+  ],
+  "Playlist bearbeiten": [
+    "Edit playlist",
+    "Modifier la playlist",
+    "Editar lista"
+  ],
+  "Gespeicherte Playlist": [
+    "Saved playlist",
+    "Playlist enregistrée",
+    "Lista guardada"
+  ],
+  "Playlistname": [
+    "Playlist name",
+    "Nom de la playlist",
+    "Nombre de la lista"
+  ],
+  "Neue Playlist": [
+    "New playlist",
+    "Nouvelle playlist",
+    "Nueva lista"
+  ],
+  "Playlist speichern": [
+    "Save playlist",
+    "Enregistrer la playlist",
+    "Guardar lista"
+  ],
+  "Playlist löschen": [
+    "Delete playlist",
+    "Supprimer la playlist",
+    "Eliminar lista"
+  ],
+  "Titel über „Hinzufügen“ übernehmen und mit den Pfeilen sortieren. Playlists laufen in Endlosschleife.": [
+    "Add tracks using “Add” and reorder with the arrows. Playlists loop continuously.",
+    "Ajoutez les titres avec « Ajouter » et classez-les avec les flèches. Les playlists tournent en boucle.",
+    "Añade pistas con «Añadir» y ordénalas con las flechas. Las listas se reproducen en bucle."
+  ],
+  "03 / RADIO AUS EUROPA": [
+    "03 / EUROPEAN RADIO",
+    "03 / RADIOS EUROPÉENNES",
+    "03 / RADIOS DE EUROPA"
+  ],
+  "Sender nach Land & Region": [
+    "Stations by country & region",
+    "Stations par pays et région",
+    "Emisoras por país y región"
+  ],
+  "Verzeichnis von Radio Browser, täglich automatisch erneuert. Es enthält die dort gemeldeten Sender; Vollständigkeit, Verfügbarkeit und Weiterverbreitungsrechte sind nicht garantiert. Bei Deutschland kannst du zusätzlich ein Bundesland wählen.": [
+    "Radio Browser directory, refreshed daily. It contains stations listed there; completeness, availability and redistribution rights are not guaranteed. For Germany, you can also select a state.",
+    "Annuaire Radio Browser actualisé chaque jour. Il contient les stations qui y sont répertoriées ; exhaustivité, disponibilité et droits de rediffusion ne sont pas garantis. Pour l’Allemagne, vous pouvez choisir un Land.",
+    "Directorio de Radio Browser actualizado a diario. Incluye las emisoras registradas allí; no se garantizan integridad, disponibilidad ni derechos de retransmisión. En Alemania también puedes elegir un estado."
+  ],
+  "Bundesland": [
+    "State",
+    "Land",
+    "Estado federado"
+  ],
+  "Sendername": [
+    "Station name",
+    "Nom de la station",
+    "Nombre de emisora"
+  ],
+  "Sender suchen": [
+    "Search stations",
+    "Rechercher des stations",
+    "Buscar emisoras"
+  ],
+  "Suchen": [
+    "Search",
+    "Rechercher",
+    "Buscar"
+  ],
+  "Verzeichnis aktualisieren": [
+    "Refresh directory",
+    "Actualiser l’annuaire",
+    "Actualizar directorio"
+  ],
+  "M3U herunterladen": [
+    "Download M3U",
+    "Télécharger la M3U",
+    "Descargar M3U"
+  ],
+  "Nur zuletzt erreichbare Sender": [
+    "Only recently reachable stations",
+    "Stations récemment accessibles uniquement",
+    "Solo emisoras accesibles recientemente"
+  ],
+  "← Zurück": [
+    "← Previous",
+    "← Précédent",
+    "← Anterior"
+  ],
+  "Weiter →": [
+    "Next →",
+    "Suivant →",
+    "Siguiente →"
+  ],
+  "Live-Streams über die Xtream-Player-API. In der IPTV-App als Ausgabeformat": [
+    "Live streams via the Xtream player API. In your IPTV app select the output format",
+    "Flux en direct via l’API Xtream. Dans votre application IPTV, sélectionnez le format",
+    "Flujos en directo mediante la API Xtream. En tu aplicación IPTV selecciona el formato"
+  ],
+  "oder MPEG-TS wählen. Keine Videothek oder Serien.": [
+    "or MPEG-TS. No video-on-demand library or series.",
+    "ou MPEG-TS. Pas de vidéothèque ni de séries.",
+    "o MPEG-TS. Sin videoteca ni series."
+  ],
+  "Eigener Xtream-Benutzername": [
+    "Your Xtream username",
+    "Votre identifiant Xtream",
+    "Tu usuario de Xtream"
+  ],
+  "Neues Xtream-Passwort": [
+    "New Xtream password",
+    "Nouveau mot de passe Xtream",
+    "Nueva contraseña de Xtream"
+  ],
+  "Mindestens 8 Zeichen, Großbuchstabe, Zahl und Sonderzeichen. Kein Schrägstrich. Dieser Zugang ist unabhängig vom Administratorkonto.": [
+    "At least 8 characters, an uppercase letter, a number and a symbol. No slash. This login is separate from the administrator account.",
+    "Au moins 8 caractères, une majuscule, un chiffre et un symbole. Pas de barre oblique. Cet accès est indépendant du compte administrateur.",
+    "Al menos 8 caracteres, una mayúscula, un número y un símbolo. Sin barras. Este acceso es independiente de la cuenta de administración."
+  ],
+  "Xtream-Zugang aktiv": [
+    "Enable Xtream access",
+    "Activer l’accès Xtream",
+    "Activar acceso Xtream"
+  ],
+  "Xtream-Zugang speichern": [
+    "Save Xtream access",
+    "Enregistrer l’accès Xtream",
+    "Guardar acceso Xtream"
+  ],
+  "Playlists pro Kanal": [
+    "Playlists per channel",
+    "Playlists par chaîne",
+    "Listas por canal"
+  ],
+  "Jede Playlist enthält genau den ausgewählten Kanal, sofern er aktiviert ist.": [
+    "Each playlist contains only the selected channel, if enabled.",
+    "Chaque playlist contient uniquement la chaîne choisie, si elle est activée.",
+    "Cada lista contiene únicamente el canal elegido, si está activado."
+  ],
+  "Gemeinsame M3U herunterladen": [
+    "Download combined M3U",
+    "Télécharger la M3U commune",
+    "Descargar M3U conjunta"
+  ],
+  "Verkehr für Europa": [
+    "Traffic for Europe",
+    "Trafic en Europe",
+    "Tráfico en Europa"
+  ],
+  "Deutsche Autobahnmeldungen sind ohne Schlüssel verfügbar. Für weitere Länder kann TomTom Traffic verbunden werden. Abdeckung und Kontingent richten sich nach deinem Anbieterzugang.": [
+    "German motorway reports are available without a key. Connect TomTom Traffic for other countries. Coverage and quota depend on your provider access.",
+    "Les alertes des autoroutes allemandes sont disponibles sans clé. Connectez TomTom Traffic pour les autres pays. Couverture et quota dépendent de votre accès fournisseur.",
+    "Las incidencias de autopistas alemanas están disponibles sin clave. Conecta TomTom Traffic para otros países. La cobertura y la cuota dependen de tu acceso al proveedor."
+  ],
+  "TomTom-Dokumentation ↗": [
+    "TomTom documentation ↗",
+    "Documentation TomTom ↗",
+    "Documentación de TomTom ↗"
+  ],
+  "TomTom-Traffic-Schlüssel": [
+    "TomTom Traffic key",
+    "Clé TomTom Traffic",
+    "Clave de TomTom Traffic"
+  ],
+  "Leer speichern: Verbindung entfernen": [
+    "Save empty to disconnect",
+    "Enregistrer vide pour déconnecter",
+    "Guardar vacío para desconectar"
+  ],
+  "Verkehrsquelle speichern": [
+    "Save traffic source",
+    "Enregistrer la source trafic",
+    "Guardar fuente de tráfico"
+  ],
+  "TomTom-API testen": [
+    "Test TomTom API",
+    "Tester l’API TomTom",
+    "Probar API de TomTom"
+  ],
+  "Kameras direkt im Wetterprogramm": [
+    "Cameras in the weather programme",
+    "Caméras dans le programme météo",
+    "Cámaras en el programa del tiempo"
+  ],
+  "Eine große Kameraansicht wird gleichzeitig geladen. Sie erscheint in der Vorschau und auf der Kameraseite des Sendestreams. Die Kameraseite unter „Kanäle & Adressen“ anhaken.": [
+    "One large camera view loads at a time, in the preview and the stream’s camera page. Enable the camera page under “Channels & addresses”.",
+    "Une grande vue caméra est chargée à la fois, dans l’aperçu et dans la page caméra du flux. Activez cette page dans « Chaînes et adresses ».",
+    "Se carga una vista grande de cámara a la vez, en la vista previa y en la página de cámaras del flujo. Actívala en «Canales y direcciones»."
+  ],
+  "Regionale Anbieter": [
+    "Regional providers",
+    "Fournisseurs régionaux",
+    "Proveedores regionales"
+  ],
+  "Automatischer Kamerawechsel": [
+    "Automatic camera rotation",
+    "Changement automatique de caméra",
+    "Cambio automático de cámara"
+  ],
+  "30 Sekunden": [
+    "30 seconds",
+    "30 secondes",
+    "30 segundos"
+  ],
+  "60 Sekunden": [
+    "60 seconds",
+    "60 secondes",
+    "60 segundos"
+  ],
+  "2 Minuten": [
+    "2 minutes",
+    "2 minutes",
+    "2 minutos"
+  ],
+  "5 Minuten": [
+    "5 minutes",
+    "5 minutes",
+    "5 minutos"
+  ],
+  "Kameraauswahl speichern": [
+    "Save camera selection",
+    "Enregistrer les caméras",
+    "Guardar selección de cámaras"
+  ],
+  "Eigene Kameraquelle hinzufügen": [
+    "Add your camera source",
+    "Ajouter votre source caméra",
+    "Añadir tu fuente de cámara"
+  ],
+  "Eine öffentliche Embed-Adresse des Anbieters, einen HLS-Stream oder ein regelmäßig erneuertes Kamerabild verwenden. Bei fremden Kameras die Freigabe zur Einbettung und zur Nutzung im eigenen Sendestream beachten.": [
+    "Use a public provider embed URL, an HLS stream or a regularly updated camera image. For third-party cameras, respect permission to embed and use them in your stream.",
+    "Utilisez une URL d’intégration publique, un flux HLS ou une image régulièrement actualisée. Pour les caméras tierces, vérifiez les autorisations d’intégration et de diffusion.",
+    "Usa una URL pública de inserción, un flujo HLS o una imagen que se actualice regularmente. Respeta los permisos de inserción y retransmisión de cámaras ajenas."
+  ],
+  "Kameraname": [
+    "Camera name",
+    "Nom de la caméra",
+    "Nombre de cámara"
+  ],
+  "Typ": [
+    "Type",
+    "Type",
+    "Tipo"
+  ],
+  "Anbieterplayer / Embed": [
+    "Provider player / embed",
+    "Lecteur du fournisseur / intégration",
+    "Reproductor del proveedor / inserción"
+  ],
+  "Aktualisiertes Einzelbild": [
+    "Updated still image",
+    "Image fixe actualisée",
+    "Imagen fija actualizada"
+  ],
+  "HLS-Videostream": [
+    "HLS video stream",
+    "Flux vidéo HLS",
+    "Flujo de vídeo HLS"
+  ],
+  "Öffentliche Kameraadresse": [
+    "Public camera URL",
+    "URL publique de la caméra",
+    "URL pública de cámara"
+  ],
+  "Bildquelle / Anbieter": [
+    "Image source / provider",
+    "Source de l’image / fournisseur",
+    "Fuente de imagen / proveedor"
+  ],
+  "Breitengrad": [
+    "Latitude",
+    "Latitude",
+    "Latitud"
+  ],
+  "Längengrad": [
+    "Longitude",
+    "Longitude",
+    "Longitud"
+  ],
+  "Kamera hinzufügen": [
+    "Add camera",
+    "Ajouter une caméra",
+    "Añadir cámara"
+  ],
+  "Bis zu acht eigene Quellen im 100-km-Umkreis. Einzelbilder werden höchstens alle 30 Sekunden abgerufen. Aufnahmezeit und Dateistand werden nicht mit der Abrufzeit gleichgesetzt.": [
+    "Up to eight custom sources within 100 km. Still images are fetched at most every 30 seconds. Capture time and file date are not the same as retrieval time.",
+    "Jusqu’à huit sources personnalisées dans un rayon de 100 km. Les images fixes sont récupérées au maximum toutes les 30 secondes. Heure de prise de vue et date du fichier ne sont pas l’heure de récupération.",
+    "Hasta ocho fuentes propias en un radio de 100 km. Las imágenes fijas se solicitan como máximo cada 30 segundos. La hora de captura y la fecha del archivo no equivalen a la hora de consulta."
+  ],
+  "Kamera-Vorschau öffnen ↗": [
+    "Open camera preview ↗",
+    "Ouvrir l’aperçu caméra ↗",
+    "Abrir vista previa de cámara ↗"
+  ],
+  "WILLKOMMEN IN DEINEM STUDIO": [
+    "WELCOME TO YOUR STUDIO",
+    "BIENVENUE DANS VOTRE STUDIO",
+    "BIENVENIDO A TU ESTUDIO"
+  ],
+  "Studio einrichten": [
+    "Set up studio",
+    "Configurer le studio",
+    "Configurar estudio"
+  ],
+  "Lege deinen persönlichen Verwaltungszugang an. Deine Wetterkanäle und Medien bleiben erhalten.": [
+    "Create your administrator login. Your weather channels and media are preserved.",
+    "Créez votre accès administrateur. Vos chaînes météo et vos médias sont conservés.",
+    "Crea tu acceso de administración. Tus canales del tiempo y archivos se conservan."
+  ],
+  "Benutzername": [
+    "Username",
+    "Nom d’utilisateur",
+    "Nombre de usuario"
+  ],
+  "3–64 Zeichen: Buchstaben, Zahlen, Punkt, Bindestrich, Unterstrich oder @.": [
+    "3–64 characters: letters, numbers, dot, hyphen, underscore or @.",
+    "3–64 caractères : lettres, chiffres, point, tiret, trait de soulignement ou @.",
+    "3–64 caracteres: letras, números, punto, guion, guion bajo o @."
+  ],
+  "Aktuelles Passwort": [
+    "Current password",
+    "Mot de passe actuel",
+    "Contraseña actual"
+  ],
+  "Passwort": [
+    "Password",
+    "Mot de passe",
+    "Contraseña"
+  ],
+  "Mindestens 8 Zeichen": [
+    "At least 8 characters",
+    "Au moins 8 caractères",
+    "Al menos 8 caracteres"
+  ],
+  "Mindestens 1 Großbuchstabe": [
+    "At least 1 uppercase letter",
+    "Au moins 1 majuscule",
+    "Al menos 1 mayúscula"
+  ],
+  "Mindestens 1 Zahl": [
+    "At least 1 number",
+    "Au moins 1 chiffre",
+    "Al menos 1 número"
+  ],
+  "Mindestens 1 Sonderzeichen": [
+    "At least 1 symbol",
+    "Au moins 1 caractère spécial",
+    "Al menos 1 símbolo"
+  ],
+  "Passwort wiederholen": [
+    "Repeat password",
+    "Confirmer le mot de passe",
+    "Repetir contraseña"
+  ],
+  "Passwörter anzeigen": [
+    "Show passwords",
+    "Afficher les mots de passe",
+    "Mostrar contraseñas"
+  ],
+  "← Zur Verwaltung": [
+    "← Administration",
+    "← Administration",
+    "← Administración"
+  ],
+  "Zur Kanalübersicht": [
+    "Channel overview",
+    "Vue des chaînes",
+    "Resumen de canales"
+  ],
+  "Die Einrichtung kann nur einmal abgeschlossen werden. Anschließend meldest du dich mit diesen Zugangsdaten an.": [
+    "Setup can only be completed once. Afterwards, sign in with these credentials.",
+    "La configuration n’est effectuée qu’une fois. Connectez-vous ensuite avec ces identifiants.",
+    "La configuración solo se realiza una vez. Después inicia sesión con estas credenciales."
+  ],
+  "Anmelden": [
+    "Sign in",
+    "Se connecter",
+    "Iniciar sesión"
+  ],
+  "Willkommen zurück": [
+    "Welcome back",
+    "Bon retour",
+    "Bienvenido de nuevo"
+  ],
+  "DEIN VERWALTUNGSZUGANG": [
+    "YOUR ADMINISTRATOR LOGIN",
+    "VOTRE ACCÈS ADMINISTRATEUR",
+    "TU ACCESO DE ADMINISTRACIÓN"
+  ],
+  "Melde dich an, um deine Kanäle, Designs und Musik zu verwalten.": [
+    "Sign in to manage your channels, designs and music.",
+    "Connectez-vous pour gérer vos chaînes, designs et musiques.",
+    "Inicia sesión para gestionar tus canales, diseños y música."
+  ],
+  "Deine Anmeldung bleibt für bis zu zwölf Stunden gültig.": [
+    "You stay signed in for up to twelve hours.",
+    "Votre session reste valide jusqu’à douze heures.",
+    "Tu sesión permanece activa hasta doce horas."
+  ],
+  "DEINE ZUGANGSDATEN": [
+    "YOUR CREDENTIALS",
+    "VOS IDENTIFIANTS",
+    "TUS CREDENCIALES"
+  ],
+  "Ändere deinen Benutzernamen oder dein Passwort. Bestätige die Änderung mit deinem aktuellen Passwort.": [
+    "Change your username or password. Confirm with your current password.",
+    "Modifiez votre nom d’utilisateur ou mot de passe. Confirmez avec votre mot de passe actuel.",
+    "Cambia tu usuario o contraseña. Confirma con tu contraseña actual."
+  ],
+  "Neues Passwort (leer lassen, um es beizubehalten)": [
+    "New password (leave empty to keep current)",
+    "Nouveau mot de passe (laisser vide pour le conserver)",
+    "Nueva contraseña (dejar vacío para conservarla)"
+  ],
+  "Zugangsdaten speichern": [
+    "Save credentials",
+    "Enregistrer les identifiants",
+    "Guardar credenciales"
+  ],
+  "Nach einer Änderung werden alle bisherigen Anmeldungen beendet. Dieser Browser wird neu angemeldet.": [
+    "Changing credentials ends all existing sessions. This browser signs in again.",
+    "La modification ferme toutes les sessions existantes. Ce navigateur est reconnecté.",
+    "El cambio cierra todas las sesiones existentes. Este navegador vuelve a iniciar sesión."
+  ],
+  "Die Passwörter stimmen nicht überein.": [
+    "The passwords do not match.",
+    "Les mots de passe ne correspondent pas.",
+    "Las contraseñas no coinciden."
+  ],
+  "Bitte die Eingaben prüfen.": [
+    "Please check your entries.",
+    "Veuillez vérifier les champs.",
+    "Revisa los datos introducidos."
+  ],
+  "Zugangsdaten gespeichert. Die bisherigen Sitzungen wurden beendet.": [
+    "Credentials saved. Previous sessions have ended.",
+    "Identifiants enregistrés. Les anciennes sessions ont été fermées.",
+    "Credenciales guardadas. Se han cerrado las sesiones anteriores."
+  ],
+  "Verbindung zum Studio nicht möglich. Bitte die Seite neu laden.": [
+    "Cannot connect to the studio. Please reload the page.",
+    "Connexion au studio impossible. Rechargez la page.",
+    "No se puede conectar al estudio. Recarga la página."
+  ],
+  "DEIN WETTERPROGRAMM": [
+    "YOUR WEATHER PROGRAMME",
+    "VOTRE PROGRAMME MÉTÉO",
+    "TU PROGRAMA DEL TIEMPO"
+  ],
+  "Dein Wetter. Dein Programm.": [
+    "Your weather. Your programme.",
+    "Votre météo. Votre programme.",
+    "Tu tiempo. Tu programa."
+  ],
+  "Fünf Kanäle. Ein Studio. Wetter, Nachrichten und dein Sound.": [
+    "Five channels. One studio. Weather, news and your soundtrack.",
+    "Cinq chaînes. Un studio. La météo, les actualités et votre musique.",
+    "Cinco canales. Un estudio. El tiempo, las noticias y tu música."
+  ],
+  "Gemeinsame M3U-Playlist ↗": [
+    "Combined M3U playlist ↗",
+    "Playlist M3U commune ↗",
+    "Lista M3U conjunta ↗"
+  ],
+  "Adressgenaue Standortwahl · Wetterdaten von Open-Meteo · Amtliche Warnungen nach verfügbarer regionaler Zuordnung": [
+    "Address-level locations · Open-Meteo weather data · Official alerts where regional matching is available",
+    "Localisation par adresse · Données météo Open-Meteo · Alertes officielles selon la correspondance régionale disponible",
+    "Ubicaciones por dirección · Datos de Open-Meteo · Avisos oficiales según la asignación regional disponible"
+  ],
+  "ECHTER HLS-STREAM": [
+    "ACTUAL HLS STREAM",
+    "VÉRITABLE FLUX HLS",
+    "FLUJO HLS REAL"
+  ],
+  "Wetterkanal": [
+    "Weather channel",
+    "Chaîne météo",
+    "Canal del tiempo"
+  ],
+  "← Kanalübersicht": [
+    "← Channel overview",
+    "← Vue des chaînes",
+    "← Resumen de canales"
+  ],
+  "Streamstatus wird geprüft …": [
+    "Checking stream status …",
+    "Vérification du flux…",
+    "Comprobando el estado del flujo…"
+  ],
+  "Wetterkanal als Videostream": [
+    "Weather channel video stream",
+    "Chaîne météo en flux vidéo",
+    "Canal del tiempo en vídeo"
+  ],
+  "Ton einschalten": [
+    "Enable audio",
+    "Activer le son",
+    "Activar sonido"
+  ],
+  "Erneut verbinden": [
+    "Reconnect",
+    "Reconnecter",
+    "Volver a conectar"
+  ],
+  "Kanaleinstellungen": [
+    "Channel settings",
+    "Paramètres de la chaîne",
+    "Ajustes del canal"
+  ],
+  "HLS-Adresse für VLC / IPTV-Player": [
+    "HLS URL for VLC / IPTV players",
+    "URL HLS pour VLC / lecteurs IPTV",
+    "URL HLS para VLC / reproductores IPTV"
+  ],
+  "Der Videostream ist gegenüber der grafischen Vorschau um einige Sekunden verzögert. Der Ton startet stumm; mit „Ton einschalten“ aktivieren.": [
+    "The video stream is delayed by a few seconds compared with the visual preview. Audio starts muted; select “Enable audio”.",
+    "Le flux vidéo a quelques secondes de retard sur l’aperçu graphique. Le son démarre coupé ; choisissez « Activer le son ».",
+    "El vídeo tiene unos segundos de retraso respecto a la vista gráfica. El audio empieza silenciado; pulsa «Activar sonido»."
+  ],
+  "Gemeinsame M3U-Playlist herunterladen": [
+    "Download combined M3U playlist",
+    "Télécharger la playlist M3U commune",
+    "Descargar lista M3U conjunta"
+  ],
+  "Live-Kanäle": [
+    "Live channels",
+    "Chaînes en direct",
+    "Canales en directo"
+  ],
+  "Kanalplätze": [
+    "Channel slots",
+    "Emplacements de chaîne",
+    "Espacios de canal"
+  ],
+  "Bilder/s · Ausgabe": [
+    "frames/s · output",
+    "images/s · sortie",
+    "fotogramas/s · salida"
+  ],
+  "Vorschau wird geladen …": [
+    "Loading preview …",
+    "Chargement de l’aperçu…",
+    "Cargando vista previa…"
+  ],
+  "Kanal deaktiviert": [
+    "Channel disabled",
+    "Chaîne désactivée",
+    "Canal desactivado"
+  ],
+  "Stream-Vorschaubild": [
+    "Stream thumbnail",
+    "Miniature du flux",
+    "Miniatura del flujo"
+  ],
+  "Noch kein Livebild": [
+    "No live image yet",
+    "Pas encore d’image en direct",
+    "Aún no hay imagen en directo"
+  ],
+  "Vorschaubild derzeit nicht verfügbar": [
+    "Thumbnail currently unavailable",
+    "Miniature actuellement indisponible",
+    "Miniatura no disponible actualmente"
+  ],
+  "Kanal": [
+    "Channel",
+    "Chaîne",
+    "Canal"
+  ],
+  "Sendet": [
+    "On air",
+    "En diffusion",
+    "Emitiendo"
+  ],
+  "Startet / offline": [
+    "Starting / offline",
+    "Démarrage / hors ligne",
+    "Iniciando / desconectado"
+  ],
+  "Deaktiviert": [
+    "Disabled",
+    "Désactivé",
+    "Desactivado"
+  ],
+  "Musik-Playlist": [
+    "Music playlist",
+    "Playlist musicale",
+    "Lista musical"
+  ],
+  "Radio": [
+    "Radio",
+    "Radio",
+    "Radio"
+  ],
+  "Noch keine Adresse eingerichtet": [
+    "No address configured yet",
+    "Aucune adresse configurée",
+    "Todavía no hay dirección configurada"
+  ],
+  "Vorschau ↗": [
+    "Preview ↗",
+    "Aperçu ↗",
+    "Vista previa ↗"
+  ],
+  "Stream abspielen": [
+    "Play stream",
+    "Lire le flux",
+    "Reproducir flujo"
+  ],
+  "Streamstatus": [
+    "Stream status",
+    "État du flux",
+    "Estado del flujo"
+  ],
+  "Eigene M3U ↗": [
+    "Channel M3U ↗",
+    "M3U de la chaîne ↗",
+    "M3U del canal ↗"
+  ],
+  "Verwalten": [
+    "Manage",
+    "Gérer",
+    "Gestionar"
+  ],
+  "Kanäle derzeit nicht erreichbar": [
+    "Channels currently unavailable",
+    "Chaînes actuellement indisponibles",
+    "Canales no disponibles actualmente"
+  ],
+  "Livevorschau": [
+    "Live preview",
+    "Aperçu en direct",
+    "Vista previa en directo"
+  ],
+  "Grafische Livevorschau": [
+    "Visual live preview",
+    "Aperçu graphique en direct",
+    "Vista previa gráfica en directo"
+  ],
+  "Anleitung": [
+    "User guide",
+    "Guide d’utilisation",
+    "Guía de usuario"
+  ],
+  "Design auswählen": [
+    "Choose design",
+    "Choisir le design",
+    "Elegir diseño"
+  ],
+  "Nachtmodus": [
+    "Night mode",
+    "Mode nuit",
+    "Modo noche"
+  ],
+  "Tagmodus": [
+    "Day mode",
+    "Mode jour",
+    "Modo día"
+  ],
+  "Sprache auswählen": [
+    "Choose language",
+    "Choisir la langue",
+    "Elegir idioma"
+  ],
+  "Dein Backend-Design": [
+    "Your administration design",
+    "Votre design d’administration",
+    "Tu diseño de administración"
+  ],
+  "Gestalte deine Verwaltung unabhängig vom Wetterprogramm.": [
+    "Style your administration independently of the weather programme.",
+    "Personnalisez l’administration indépendamment du programme météo.",
+    "Personaliza la administración independientemente del programa del tiempo."
+  ],
+  "Kompakte Kanalliste und klare Verwaltung.": [
+    "Compact channel list and clear controls.",
+    "Liste compacte et gestion claire.",
+    "Lista compacta y gestión clara."
+  ],
+  "Große Vorschauen und sanfte Farbverläufe.": [
+    "Large previews and soft gradients.",
+    "Grands aperçus et dégradés doux.",
+    "Vistas previas grandes y degradados suaves."
+  ],
+  "Regieansicht mit Vorschau und Einstellungen.": [
+    "Control desk with preview and settings.",
+    "Régie avec aperçu et réglages.",
+    "Mesa de control con vista previa y ajustes."
+  ],
+  "Designfarbe": [
+    "Design colour",
+    "Couleur du design",
+    "Color del diseño"
+  ],
+  "Änderungen werden sofort übernommen und in diesem Browser gespeichert. Deine Kanaldesigns bleiben separat einstellbar.": [
+    "Changes apply immediately and are saved in this browser. Channel designs remain separately configurable.",
+    "Les changements sont immédiats et conservés dans ce navigateur. Les designs des chaînes se règlent séparément.",
+    "Los cambios se aplican al instante y se guardan en este navegador. Los diseños de los canales se configuran por separado."
+  ],
+  "Fertig": [
+    "Done",
+    "Terminé",
+    "Listo"
+  ],
+  "Schließen": [
+    "Close",
+    "Fermer",
+    "Cerrar"
+  ],
+  "Bitte erneut anmelden.": [
+    "Please sign in again.",
+    "Veuillez vous reconnecter.",
+    "Vuelve a iniciar sesión."
+  ],
+  "Anfrage fehlgeschlagen": [
+    "Request failed",
+    "Échec de la requête",
+    "La solicitud ha fallado"
+  ],
+  "Standort, Wetterseiten und amtliche Warninformationen.": [
+    "Location, weather pages and official alerts.",
+    "Lieu, pages météo et alertes officielles.",
+    "Ubicación, páginas del tiempo y avisos oficiales."
+  ],
+  "Ein eigener Look für jeden deiner Kanäle.": [
+    "A distinct look for every channel.",
+    "Un style propre à chaque chaîne.",
+    "Un estilo propio para cada canal."
+  ],
+  "Musik verwalten, Playlists erstellen und europäische Sender auswählen.": [
+    "Manage music, create playlists and choose European radio stations.",
+    "Gérez la musique, créez des playlists et choisissez des radios européennes.",
+    "Gestiona música, crea listas y elige emisoras europeas."
+  ],
+  "Xtream, einzelne Playlists und regionale Datenquellen.": [
+    "Xtream, individual playlists and regional sources.",
+    "Xtream, playlists individuelles et sources régionales.",
+    "Xtream, listas individuales y fuentes regionales."
+  ],
+  "Direkte Anbieterplayer, Videostreams und Kamerabilder.": [
+    "Embedded provider players, video streams and camera images.",
+    "Lecteurs intégrés, flux vidéo et images des caméras.",
+    "Reproductores integrados, flujos de vídeo e imágenes de cámaras."
+  ],
+  "Aktuell": [
+    "Current",
+    "Actuel",
+    "Actual"
+  ],
+  "7 Tage": [
+    "7 days",
+    "7 jours",
+    "7 días"
+  ],
+  "Stunden": [
+    "Hourly",
+    "Par heure",
+    "Por horas"
+  ],
+  "Wind": [
+    "Wind",
+    "Vent",
+    "Viento"
+  ],
+  "Niederschlag": [
+    "Precipitation",
+    "Précipitations",
+    "Precipitación"
+  ],
+  "Landeswetter": [
+    "Country weather",
+    "Météo nationale",
+    "Tiempo del país"
+  ],
+  "Verkehr": [
+    "Traffic",
+    "Trafic",
+    "Tráfico"
+  ],
+  "Ausgewählt": [
+    "Selected",
+    "Sélectionné",
+    "Seleccionado"
+  ],
+  "Auswählen": [
+    "Select",
+    "Sélectionner",
+    "Seleccionar"
+  ],
+  "Fotorealistische Motive": [
+    "Photorealistic imagery",
+    "Images photoréalistes",
+    "Imágenes fotorrealistas"
+  ],
+  "Grafische Studio-Icons": [
+    "Graphic studio icons",
+    "Icônes graphiques du studio",
+    "Iconos gráficos del estudio"
+  ],
+  "Gespeicherter Radiosender wird geladen …": [
+    "Loading saved station …",
+    "Chargement de la station enregistrée…",
+    "Cargando emisora guardada…"
+  ],
+  "Gewählter Sender:": [
+    "Selected station:",
+    "Station choisie :",
+    "Emisora elegida:"
+  ],
+  "Gespeicherter Sender:": [
+    "Saved station:",
+    "Station enregistrée :",
+    "Emisora guardada:"
+  ],
+  "Region / Bezirk": [
+    "Region / district",
+    "Région / district",
+    "Región / distrito"
+  ],
+  "Gespeichert. Wetterbild und Ton übernehmen die Änderung innerhalb von etwa 15 Sekunden.": [
+    "Saved. Weather display and audio update within about 15 seconds.",
+    "Enregistré. L’image météo et le son sont actualisés sous environ 15 secondes.",
+    "Guardado. La imagen y el audio se actualizan en unos 15 segundos."
+  ],
+  "Mindestens eine Wetterseite wählen.": [
+    "Select at least one weather page.",
+    "Choisissez au moins une page météo.",
+    "Selecciona al menos una página del tiempo."
+  ],
+  "Bitte beide GPS-Koordinaten eingeben.": [
+    "Please enter both GPS coordinates.",
+    "Saisissez les deux coordonnées GPS.",
+    "Introduce ambas coordenadas GPS."
+  ],
+  "Bitte Ortsname und beide GPS-Koordinaten eingeben oder einen Adresstreffer auswählen.": [
+    "Enter a place name and both GPS coordinates, or select an address result.",
+    "Saisissez un lieu et les deux coordonnées GPS, ou choisissez un résultat d’adresse.",
+    "Introduce un nombre y ambas coordenadas GPS, o elige un resultado de dirección."
+  ],
+  "Straßenabschnitt": [
+    "Street section",
+    "Tronçon de rue",
+    "Tramo de calle"
+  ],
+  "Urbanisation / Ortsteil": [
+    "Development / district",
+    "Lotissement / quartier",
+    "Urbanización / barrio"
+  ],
+  "Ort / Gebiet": [
+    "Place / area",
+    "Lieu / zone",
+    "Localidad / zona"
+  ],
+  "Bitte einen passenden Adresstreffer auswählen und GPS-Koordinaten prüfen.": [
+    "Select the matching address and check its GPS coordinates.",
+    "Choisissez l’adresse correspondante et vérifiez ses coordonnées GPS.",
+    "Elige la dirección correspondiente y comprueba sus coordenadas GPS."
+  ],
+  "Keine Treffer. Bitte Adresse präzisieren oder Koordinaten manuell eintragen.": [
+    "No results. Refine the address or enter coordinates manually.",
+    "Aucun résultat. Précisez l’adresse ou saisissez les coordonnées.",
+    "Sin resultados. Precisa la dirección o introduce las coordenadas manualmente."
+  ],
+  "Treffer mit Hausnummer": [
+    "Result with house number",
+    "Résultat avec numéro de rue",
+    "Resultado con número de calle"
+  ],
+  "Ungefährer Treffer – GPS-Koordinaten prüfen": [
+    "Approximate match — check GPS coordinates",
+    "Résultat approximatif — vérifiez les coordonnées GPS",
+    "Coincidencia aproximada — comprueba las coordenadas GPS"
+  ],
+  "Playlist wählen …": [
+    "Select a playlist …",
+    "Choisir une playlist…",
+    "Elegir una lista…"
+  ],
+  "Titel nicht vorhanden": [
+    "Track unavailable",
+    "Titre indisponible",
+    "Pista no disponible"
+  ],
+  "Playlistname eingeben.": [
+    "Enter a playlist name.",
+    "Saisissez un nom de playlist.",
+    "Introduce un nombre para la lista."
+  ],
+  "Playlist gespeichert. Für die Wiedergabe oben dem Kanal zuweisen.": [
+    "Playlist saved. Assign it to the channel above for playback.",
+    "Playlist enregistrée. Associez-la à la chaîne ci-dessus pour la lire.",
+    "Lista guardada. Asígnala al canal arriba para reproducirla."
+  ],
+  "Eine gespeicherte Playlist wählen.": [
+    "Select a saved playlist.",
+    "Choisissez une playlist enregistrée.",
+    "Elige una lista guardada."
+  ],
+  "Playlist gelöscht.": [
+    "Playlist deleted.",
+    "Playlist supprimée.",
+    "Lista eliminada."
+  ],
+  "Bitte Musikdateien auswählen.": [
+    "Please select music files.",
+    "Sélectionnez des fichiers musicaux.",
+    "Selecciona archivos de música."
+  ],
+  "Upload abgeschlossen": [
+    "Upload complete",
+    "Importation terminée",
+    "Subida completada"
+  ],
+  "Musik hochgeladen. Du kannst sie jetzt einer Playlist hinzufügen.": [
+    "Music uploaded. You can add it to a playlist now.",
+    "Musique importée. Vous pouvez l’ajouter à une playlist.",
+    "Música subida. Ya puedes añadirla a una lista."
+  ],
+  "Alle Bundesländer": [
+    "All states",
+    "Tous les Länder",
+    "Todos los estados"
+  ],
+  "Überregional / nicht zugeordnet": [
+    "National / unassigned",
+    "National / non attribué",
+    "Nacional / sin asignar"
+  ],
+  "Automatische Aktualisierung täglich": [
+    "Automatic daily updates",
+    "Actualisation automatique quotidienne",
+    "Actualización automática diaria"
+  ],
+  "Sender im Verzeichnis": [
+    "stations in directory",
+    "stations dans l’annuaire",
+    "emisoras en el directorio"
+  ],
+  "Verzeichnis wird geladen": [
+    "Loading directory",
+    "Chargement de l’annuaire",
+    "Cargando directorio"
+  ],
+  "Zuletzt erreichbar": [
+    "Recently reachable",
+    "Récemment accessible",
+    "Accesible recientemente"
+  ],
+  "Zuletzt nicht erreichbar": [
+    "Recently unavailable",
+    "Récemment indisponible",
+    "No accesible recientemente"
+  ],
+  "Sender gewählt. Oben „Tonquelle für diesen Kanal speichern“ wählen.": [
+    "Station selected. Click “Save audio for this channel” above.",
+    "Station choisie. Cliquez sur « Enregistrer l’audio de cette chaîne » ci-dessus.",
+    "Emisora elegida. Pulsa «Guardar audio de este canal» arriba."
+  ],
+  "Aktualisierung abgeschlossen. Bei Quellenausfällen bleibt der letzte Katalog erhalten.": [
+    "Update complete. The last catalogue is retained if sources fail.",
+    "Actualisation terminée. Le dernier catalogue est conservé si les sources échouent.",
+    "Actualización completada. Si fallan las fuentes se conserva el último catálogo."
+  ],
+  "Manuelle GPS-Position. Ortsname, Land und gegebenenfalls Warnregion prüfen. Zum dauerhaften Übernehmen den Kanal speichern.": [
+    "Manual GPS position. Check the place, country and alert region if needed. Save the channel to keep it.",
+    "Position GPS manuelle. Vérifiez le lieu, le pays et si besoin la zone d’alerte. Enregistrez la chaîne pour la conserver.",
+    "Posición GPS manual. Comprueba lugar, país y región de avisos si procede. Guarda el canal para conservarla."
+  ],
+  "GPS-Koordinaten übernommen. Bitte Ortsname und Land prüfen und den Kanal speichern.": [
+    "GPS coordinates applied. Check the place and country, then save the channel.",
+    "Coordonnées GPS appliquées. Vérifiez le lieu et le pays, puis enregistrez la chaîne.",
+    "Coordenadas GPS aplicadas. Comprueba lugar y país y guarda el canal."
+  ],
+  "Serverempfehlung momentan nicht verfügbar:": [
+    "Server recommendation unavailable:",
+    "Conseils serveur indisponibles :",
+    "Recomendación del servidor no disponible:"
+  ],
+  "Ort auswählen und hinzufügen.": [
+    "Select and add a place.",
+    "Choisissez et ajoutez un lieu.",
+    "Selecciona y añade una localidad."
+  ],
+  "Keine passenden Orte im ausgewählten Land gefunden.": [
+    "No matching places in the selected country.",
+    "Aucun lieu correspondant dans le pays choisi.",
+    "No se encontraron localidades en el país elegido."
+  ],
+  "Höchstens acht Übersichtsorte.": [
+    "Up to eight overview places.",
+    "Huit lieux au maximum.",
+    "Máximo ocho localidades."
+  ],
+  "Serveradresse:": [
+    "Server address:",
+    "Adresse du serveur :",
+    "Dirección del servidor:"
+  ],
+  "Xtream-Zugang ist aktiv.": [
+    "Xtream access is active.",
+    "L’accès Xtream est actif.",
+    "El acceso Xtream está activo."
+  ],
+  "Xtream-Zugang noch nicht aktiviert.": [
+    "Xtream access is not enabled yet.",
+    "L’accès Xtream n’est pas encore activé.",
+    "El acceso Xtream todavía no está activado."
+  ],
+  "TomTom Traffic verbunden.": [
+    "TomTom Traffic connected.",
+    "TomTom Traffic connecté.",
+    "TomTom Traffic conectado."
+  ],
+  "Ohne Schlüssel: deutsche Autobahnmeldungen.": [
+    "Without a key: German motorway reports.",
+    "Sans clé : alertes des autoroutes allemandes.",
+    "Sin clave: incidencias de autopistas alemanas."
+  ],
+  "Xtream-Zugang gespeichert. In der IPTV-App Serveradresse, Benutzername und das gerade gewählte Passwort eingeben.": [
+    "Xtream access saved. Enter the server address, username and chosen password in your IPTV app.",
+    "Accès Xtream enregistré. Saisissez l’adresse du serveur, l’identifiant et le mot de passe choisi dans l’application IPTV.",
+    "Acceso Xtream guardado. Introduce servidor, usuario y la contraseña elegida en tu aplicación IPTV."
+  ],
+  "Verkehrsquelle gespeichert.": [
+    "Traffic source saved.",
+    "Source trafic enregistrée.",
+    "Fuente de tráfico guardada."
+  ],
+  "Bitte ein Ortsfoto auswählen.": [
+    "Please select a location photo.",
+    "Sélectionnez une photo locale.",
+    "Selecciona una foto local."
+  ],
+  "Ortsfoto gespeichert. In Metro Red, Ocean Blue, Forest Green und Local Panorama wird es passend zur Auswahl verwendet.": [
+    "Location photo saved. Metro Red, Ocean Blue, Forest Green and Local Panorama use it according to your selection.",
+    "Photo locale enregistrée. Metro Red, Ocean Blue, Forest Green et Local Panorama l’utilisent selon votre sélection.",
+    "Foto local guardada. Metro Red, Ocean Blue, Forest Green y Local Panorama la usan según tu selección."
+  ],
+  "Kameraauswahl gespeichert. Die direkte Ansicht übernimmt sie innerhalb einer Minute.": [
+    "Camera selection saved. The live view updates within a minute.",
+    "Caméras enregistrées. La vue directe est actualisée sous une minute.",
+    "Selección de cámaras guardada. La vista directa se actualiza en un minuto."
+  ],
+  "Kamera hinzugefügt. Kamera-Vorschau öffnen oder die Kameraseite in der Sendefolge aktivieren.": [
+    "Camera added. Open the camera preview or enable the camera page in the programme.",
+    "Caméra ajoutée. Ouvrez l’aperçu ou activez la page caméra dans le programme.",
+    "Cámara añadida. Abre la vista previa o activa la página de cámaras en la programación."
+  ],
+  "Bitte eine Logodatei auswählen.": [
+    "Please select a logo file.",
+    "Sélectionnez un fichier de logo.",
+    "Selecciona un archivo de logotipo."
+  ],
+  "Maximal 5 MB pro Logo.": [
+    "Maximum 5 MB per logo.",
+    "Maximum 5 Mo par logo.",
+    "Máximo 5 MB por logotipo."
+  ],
+  "Logo entfernt.": [
+    "Logo removed.",
+    "Logo supprimé.",
+    "Logotipo eliminado."
+  ],
+  "TomTom wird mit dem ausgewählten Kanal geprüft …": [
+    "Testing TomTom for the selected channel …",
+    "Test de TomTom pour la chaîne choisie…",
+    "Probando TomTom para el canal elegido…"
+  ],
+  "Hinzufügen": [
+    "Add",
+    "Ajouter",
+    "Añadir"
+  ],
+  "Entfernen": [
+    "Remove",
+    "Supprimer",
+    "Eliminar"
+  ],
+  "Löschen": [
+    "Delete",
+    "Supprimer",
+    "Eliminar"
+  ],
+  "Titel nach oben": [
+    "Move track up",
+    "Monter le titre",
+    "Subir pista"
+  ],
+  "Titel nach unten": [
+    "Move track down",
+    "Descendre le titre",
+    "Bajar pista"
+  ],
+  "Titel entfernen": [
+    "Remove track",
+    "Supprimer le titre",
+    "Eliminar pista"
+  ],
+  "Für Kanal wählen": [
+    "Use for channel",
+    "Choisir pour la chaîne",
+    "Elegir para el canal"
+  ],
+  "Noch keine Musik hochgeladen.": [
+    "No music uploaded yet.",
+    "Aucune musique importée.",
+    "Todavía no hay música subida."
+  ],
+  "Füge Titel aus der Bibliothek hinzu.": [
+    "Add tracks from the library.",
+    "Ajoutez des titres de la bibliothèque.",
+    "Añade pistas de la biblioteca."
+  ],
+  "Keine passenden Sender. Falls der Erstimport noch läuft, später erneut suchen.": [
+    "No matching stations. If the initial import is running, try again later.",
+    "Aucune station correspondante. Si l’import initial est en cours, réessayez plus tard.",
+    "No hay emisoras coincidentes. Si la importación inicial sigue en curso, inténtalo más tarde."
+  ],
+  "Sender gewählt.": [
+    "Station selected.",
+    "Station choisie.",
+    "Emisora elegida."
+  ],
+  "Noch keine eigenen Ortsfotos hochgeladen.": [
+    "No location photos uploaded yet.",
+    "Aucune photo locale importée.",
+    "Todavía no hay fotos locales subidas."
+  ],
+  "Für diesen Standort ist kein vorkonfigurierter Anbieter verfügbar. Eigene Kameraquelle hinzufügen.": [
+    "No preset provider for this location. Add your camera source.",
+    "Aucun fournisseur prédéfini pour ce lieu. Ajoutez votre source caméra.",
+    "No hay proveedor preconfigurado para esta ubicación. Añade tu fuente de cámara."
+  ],
+  "Videostream wird verbunden …": [
+    "Connecting video stream …",
+    "Connexion au flux vidéo…",
+    "Conectando el flujo de vídeo…"
+  ],
+  "Zum Starten auf die Wiedergabetaste im Video klicken.": [
+    "Click the play button in the video to start.",
+    "Cliquez sur Lecture dans la vidéo pour démarrer.",
+    "Pulsa el botón de reproducción del vídeo para empezar."
+  ],
+  "Verbindung zum Stream unterbrochen · automatischer Neuversuch …": [
+    "Stream connection interrupted · reconnecting automatically …",
+    "Connexion au flux interrompue · nouvelle tentative automatique…",
+    "Conexión interrumpida · reintentando automáticamente…"
+  ],
+  "Dieser Browser unterstützt die benötigte H.264/HLS-Wiedergabe nicht. Bitte einen aktuellen Chrome/Edge/Safari verwenden oder die HLS-Adresse unten in VLC öffnen.": [
+    "This browser cannot play the required H.264/HLS stream. Use a recent Chrome, Edge or Safari, or open the HLS URL below in VLC.",
+    "Ce navigateur ne peut pas lire le flux H.264/HLS requis. Utilisez Chrome, Edge ou Safari récent, ou ouvrez l’URL HLS ci-dessous dans VLC.",
+    "Este navegador no admite el flujo H.264/HLS necesario. Usa Chrome, Edge o Safari actualizado, o abre la URL HLS inferior en VLC."
+  ],
+  "Kanal nicht vorhanden.": [
+    "Channel not found.",
+    "Chaîne introuvable.",
+    "Canal no encontrado."
+  ],
+  "Dieser Kanal ist deaktiviert. In den Kanaleinstellungen aktivieren und speichern.": [
+    "This channel is disabled. Enable it in channel settings and save.",
+    "Cette chaîne est désactivée. Activez-la dans ses paramètres et enregistrez.",
+    "Este canal está desactivado. Actívalo en sus ajustes y guarda."
+  ],
+  "Stream startet oder Renderer ist noch nicht bereit · erneute Prüfung läuft …": [
+    "Stream is starting or not ready · checking again …",
+    "Le flux démarre ou n’est pas prêt · nouvelle vérification…",
+    "El flujo está iniciándose o no está listo · comprobando de nuevo…"
+  ],
+  "Studio derzeit nicht erreichbar · erneute Prüfung läuft …": [
+    "Studio unavailable · checking again …",
+    "Studio indisponible · nouvelle vérification…",
+    "Estudio no disponible · comprobando de nuevo…"
+  ],
+  "Stream läuft · H.264 / AAC · 720p": [
+    "Stream playing · H.264 / AAC · 720p",
+    "Flux en lecture · H.264 / AAC · 720p",
+    "Flujo en reproducción · H.264 / AAC · 720p"
+  ],
+  "Videodaten werden gepuffert …": [
+    "Buffering video …",
+    "Mise en mémoire tampon…",
+    "Almacenando vídeo en búfer…"
+  ],
+  "Videostream momentan nicht abspielbar · erneuter Verbindungsversuch folgt.": [
+    "Video cannot play right now · reconnecting shortly.",
+    "Lecture impossible actuellement · reconnexion à venir.",
+    "No se puede reproducir ahora · se volverá a conectar."
+  ],
+  "Ton ausschalten": [
+    "Mute audio",
+    "Couper le son",
+    "Silenciar audio"
+  ],
+  "Bitte die Wiedergabetaste im Video anklicken.": [
+    "Please click the play button in the video.",
+    "Cliquez sur Lecture dans la vidéo.",
+    "Pulsa el botón de reproducción del vídeo."
+  ],
+  "Die vertraute, klare Studioansicht.": [
+    "The familiar, clear studio layout.",
+    "La présentation claire et familière du studio.",
+    "La vista clara y familiar del estudio."
+  ],
+  "Polarlicht, sanfte Lichtflächen und transparente Karten.": [
+    "Aurora light, soft lighting and transparent cards.",
+    "Aurores, lumières douces et cartes transparentes.",
+    "Auroras, luces suaves y tarjetas transparentes."
+  ],
+  "Graphit, warme Akzente und markante TV-Typografie.": [
+    "Graphite, warm accents and bold TV typography.",
+    "Graphite, accents chauds et typographie TV affirmée.",
+    "Grafito, acentos cálidos y tipografía televisiva marcada."
+  ],
+  "Warme Sandtöne, Abendlicht und großzügige Formen.": [
+    "Warm sand tones, evening light and spacious shapes.",
+    "Tons sable chauds, lumière du soir et formes amples.",
+    "Tonos arena cálidos, luz del atardecer y formas amplias."
+  ],
+  "Helles Eisblau, feine Linien und ruhige Datenkarten.": [
+    "Light ice blue, fine lines and calm data cards.",
+    "Bleu glacier clair, lignes fines et cartes sobres.",
+    "Azul hielo claro, líneas finas y tarjetas serenas."
+  ],
+  "Bewegter Himmel mit Sonne, Mond, Wolken und passenden Wettereffekten.": [
+    "Animated sky with sun, moon, clouds and matching weather effects.",
+    "Ciel animé avec soleil, lune, nuages et effets météo adaptés.",
+    "Cielo animado con sol, luna, nubes y efectos meteorológicos acordes."
+  ],
+  "Illustrierte Stadtsilhouette mit Abendlicht und leuchtenden Fenstern.": [
+    "Illustrated skyline with evening light and glowing windows.",
+    "Silhouette urbaine illustrée, lumière du soir et fenêtres éclairées.",
+    "Silueta urbana ilustrada con luz del atardecer y ventanas iluminadas."
+  ],
+  "Animierter See, Wald und Berge mit wechselnder Lichtstimmung.": [
+    "Animated lake, forest and mountains with changing light.",
+    "Lac, forêt et montagnes animés avec lumière changeante.",
+    "Lago, bosque y montañas animados con luz cambiante."
+  ],
+  "Erzeugte Fotolandschaft mit sanfter Kamerafahrt, Licht- und Wettereffekten.": [
+    "Generated photographic landscape with gentle camera motion, lighting and weather effects.",
+    "Paysage photographique généré avec mouvement doux, éclairage et effets météo.",
+    "Paisaje fotográfico generado con movimiento suave, luz y efectos meteorológicos."
+  ],
+  "Weiche Lichtströme und Partikel, passend zu Wetter und Tageszeit.": [
+    "Soft light streams and particles matching the weather and time.",
+    "Flux lumineux doux et particules adaptés à la météo et à l’heure.",
+    "Flujos de luz suaves y partículas acordes al tiempo y la hora."
+  ],
+  "Markante Senderoptik mit klaren Rahmen und hellem Nachrichtenlaufband.": [
+    "Distinct broadcast styling with clear frames and a bright news ticker.",
+    "Style de chaîne affirmé avec cadres nets et bandeau clair.",
+    "Estilo televisivo marcado con marcos claros y ticker luminoso."
+  ],
+  "Viel Landschaft, feine goldene Rahmen und ein elegantes dunkles Nachrichtenband.": [
+    "Expansive landscape, fine gold frames and an elegant dark news band.",
+    "Large paysage, fins cadres dorés et élégant bandeau sombre.",
+    "Paisaje amplio, marcos dorados finos y ticker oscuro elegante."
+  ],
+  "Ortsfotografie mit roten Glasrahmen, dunklem Bordeaux und präziser Studiografik.": [
+    "Location photography with red glass frames, dark burgundy and precise studio graphics.",
+    "Photos locales, cadres de verre rouges, bordeaux sombre et graphismes précis.",
+    "Fotografía local, marcos de cristal rojos, burdeos oscuro y gráficos precisos."
+  ],
+  "Ortsfotos, blaue Lichtkanten und kühle moderne Datenflächen.": [
+    "Location photos, blue light edges and cool modern data panels.",
+    "Photos locales, contours bleutés et panneaux de données modernes.",
+    "Fotos locales, bordes luminosos azules y paneles modernos de tonos fríos."
+  ],
+  "Ortsfotografie, smaragdgrüne Rahmen und ruhige Naturfarben.": [
+    "Location photography, emerald frames and calm natural colours.",
+    "Photos locales, cadres émeraude et couleurs naturelles apaisantes.",
+    "Fotografía local, marcos esmeralda y colores naturales serenos."
+  ],
+  "Grüne Bildschirmoptik, Rastergrafik und Monospace-Typografie.": [
+    "Green terminal styling, grid graphics and monospace typography.",
+    "Écran vert, graphiques quadrillés et typographie monospace.",
+    "Estética de terminal verde, cuadrículas y tipografía monoespaciada."
+  ],
+  "Violett, Koralle, grafische Streifensonne und kantige Retro-Rahmen.": [
+    "Violet, coral, striped sun graphics and angular retro frames.",
+    "Violet, corail, soleil rayé et cadres rétro anguleux.",
+    "Violeta, coral, sol a rayas y marcos retro angulares."
+  ],
+  "Moderne Verläufe in Blau, Lila und Petrol mit feinen Leuchtrahmen.": [
+    "Modern blue, purple and teal gradients with fine glowing frames.",
+    "Dégradés modernes bleus, mauves et pétrole avec cadres lumineux fins.",
+    "Degradados modernos azules, lilas y petróleo con marcos luminosos finos."
+  ],
+  "Freies Archivfoto aus der Ortsumgebung, Lichtstimmung und Wettereffekte passend zu den Daten.": [
+    "An openly licensed local archive photo with lighting and weather effects matching the data.",
+    "Photo locale d’archives sous licence ouverte, lumière et effets adaptés aux données.",
+    "Foto local de archivo con licencia abierta, luz y efectos acordes a los datos."
+  ],
+  "Viel Landschaft, feine Glasrahmen und kompakte Wetterkarten.": [
+    "Expansive landscape, fine glass frames and compact weather cards.",
+    "Large paysage, fins cadres de verre et cartes météo compactes.",
+    "Paisaje amplio, marcos de cristal finos y tarjetas meteorológicas compactas."
+  ],
+  "Helle Flächen, klare Linien und eine großzügige Fotoansicht.": [
+    "Light panels, clear lines and spacious photography.",
+    "Surfaces claires, lignes nettes et photo généreuse.",
+    "Superficies claras, líneas definidas y fotografía amplia."
+  ],
+  "Markante TV-Rahmen, schräge Kanten und kräftige Farbakzente.": [
+    "Bold TV frames, angled edges and strong colour accents.",
+    "Cadres TV affirmés, bords inclinés et accents vifs.",
+    "Marcos televisivos marcados, bordes inclinados y acentos intensos."
+  ],
+  "Ruhige Naturfarben, grafische Linien und große Landschaften.": [
+    "Calm natural colours, graphic lines and large landscapes.",
+    "Couleurs naturelles calmes, lignes graphiques et grands paysages.",
+    "Colores naturales serenos, líneas gráficas y grandes paisajes."
+  ],
+  "Kantige TV-Optik, helle Flächen und kräftige Retro-Typografie.": [
+    "Angular TV styling, light panels and bold retro typography.",
+    "Style TV anguleux, surfaces claires et typographie rétro affirmée.",
+    "Estilo televisivo angular, paneles claros y tipografía retro marcada."
+  ],
+  "Digitale Temperaturanzeige, feines Raster und kontrastreiche Rahmen.": [
+    "Digital temperatures, a fine grid and high-contrast frames.",
+    "Températures numériques, grille fine et cadres contrastés.",
+    "Temperaturas digitales, cuadrícula fina y marcos contrastados."
+  ],
+  "Weiche Farbverläufe, gerundete Glasflächen und fließende Linien.": [
+    "Soft gradients, rounded glass panels and flowing lines.",
+    "Dégradés doux, surfaces de verre arrondies et lignes fluides.",
+    "Degradados suaves, paneles de cristal redondeados y líneas fluidas."
+  ],
+  "Feine Schmucklinien, ruhige Typografie und viel Fotopanorama.": [
+    "Fine ornamental lines, calm typography and expansive photo panoramas.",
+    "Fines lignes décoratives, typographie calme et grands panoramas photo.",
+    "Líneas decorativas finas, tipografía serena y amplios panoramas fotográficos."
+  ],
+  "Bitte eine Dezimalzahl eingeben.": [
+    "Please enter a decimal number.",
+    "Saisissez un nombre décimal.",
+    "Introduce un número decimal."
+  ],
+  "Zwei Koordinaten eingeben: Breitengrad, Längengrad. Bei Dezimalkomma mit Semikolon trennen.": [
+    "Enter latitude and longitude. If using decimal commas, separate them with a semicolon.",
+    "Saisissez latitude et longitude. Avec une virgule décimale, séparez-les par un point-virgule.",
+    "Introduce latitud y longitud. Si usas coma decimal, sepáralas con punto y coma."
+  ],
+  "Beide Koordinaten eingeben.": [
+    "Enter both coordinates.",
+    "Saisissez les deux coordonnées.",
+    "Introduce ambas coordenadas."
+  ],
+  "Kein TomTom-Schlüssel hinterlegt oder eingegeben.": [
+    "No TomTom key saved or entered.",
+    "Aucune clé TomTom enregistrée ou saisie.",
+    "No hay clave de TomTom guardada ni introducida."
+  ],
+  "TomTom lehnt den Schlüssel ab oder Traffic Incident Details ist für diesen Schlüssel nicht freigeschaltet.": [
+    "TomTom rejected the key or Traffic Incident Details is not enabled for it.",
+    "TomTom refuse la clé ou Traffic Incident Details n’est pas activé pour cette clé.",
+    "TomTom rechaza la clave o Traffic Incident Details no está habilitado para ella."
+  ],
+  "TomTom-Kontingent oder Anfragelimit erreicht. Später erneut testen.": [
+    "TomTom quota or request limit reached. Try again later.",
+    "Quota ou limite de requêtes TomTom atteint. Réessayez plus tard.",
+    "Se ha alcanzado la cuota o el límite de TomTom. Inténtalo más tarde."
+  ],
+  "TomTom hat die Verkehrsabfrage abgelehnt (HTTP 400). API-Berechtigung und Anfrageparameter prüfen.": [
+    "TomTom rejected the traffic request (HTTP 400). Check API permissions and parameters.",
+    "TomTom a refusé la requête trafic (HTTP 400). Vérifiez les droits API et les paramètres.",
+    "TomTom rechazó la consulta (HTTP 400). Comprueba permisos y parámetros de la API."
+  ],
+  "TomTom ist derzeit nicht erreichbar. Netzwerkverbindung oder Anbieterstatus prüfen.": [
+    "TomTom is unavailable. Check the network or provider status.",
+    "TomTom est indisponible. Vérifiez le réseau ou l’état du fournisseur.",
+    "TomTom no está disponible. Comprueba la red o el estado del proveedor."
+  ],
+  "Bitte einen Standort konfigurieren": [
+    "Please configure a location",
+    "Configurez un lieu",
+    "Configura una ubicación"
+  ],
+  "Logo gespeichert. Position und Größe unten einstellen und Design speichern.": [
+    "Logo saved. Adjust position and size below, then save the design.",
+    "Logo enregistré. Réglez position et taille ci-dessous, puis enregistrez le design.",
+    "Logotipo guardado. Ajusta posición y tamaño abajo y guarda el diseño."
+  ],
+  "Maximal 5 MB pro Logo": [
+    "Maximum 5 MB per logo",
+    "Maximum 5 Mo par logo",
+    "Máximo 5 MB por logotipo"
+  ],
+  "Kein gültiges Rasterbild": [
+    "Not a valid raster image",
+    "Image matricielle non valide",
+    "No es una imagen de mapa de bits válida"
+  ],
+  "Bild konnte nicht gelesen werden": [
+    "Could not read the image",
+    "Impossible de lire l’image",
+    "No se pudo leer la imagen"
+  ],
+  "Logo ist zu groß oder ungültig (max. 16 Megapixel)": [
+    "Logo is too large or invalid (max. 16 megapixels)",
+    "Logo trop grand ou non valide (16 mégapixels max.)",
+    "Logotipo demasiado grande o no válido (máx. 16 megapíxeles)"
+  ],
+  "PNG, JPEG oder WebP wählen. Für Transparenz PNG oder WebP verwenden.": [
+    "Choose PNG, JPEG or WebP. Use PNG or WebP for transparency.",
+    "Choisissez PNG, JPEG ou WebP. Pour la transparence, utilisez PNG ou WebP.",
+    "Elige PNG, JPEG o WebP. Usa PNG o WebP para transparencia."
+  ],
+  "Bitte anmelden": [
+    "Please sign in",
+    "Veuillez vous connecter",
+    "Inicia sesión"
+  ],
+  "Benutzername oder Passwort falsch": [
+    "Incorrect username or password",
+    "Nom d’utilisateur ou mot de passe incorrect",
+    "Usuario o contraseña incorrectos"
+  ],
+  "Bitte die markierten Felder prüfen.": [
+    "Please check the highlighted fields.",
+    "Vérifiez les champs indiqués.",
+    "Revisa los campos señalados."
+  ],
+  "unbekannt": [
+    "unknown",
+    "inconnu",
+    "desconocido"
+  ],
+  "Verfügbar:": [
+    "Available:",
+    "Disponible :",
+    "Disponible:"
+  ],
+  "logische CPU-Kerne": [
+    "logical CPU cores",
+    "cœurs CPU logiques",
+    "núcleos lógicos de CPU"
+  ],
+  "GB frei": [
+    "GB free",
+    "Go libres",
+    "GB libres"
+  ],
+  "aktive Kanäle.": [
+    "active channels.",
+    "chaînes actives.",
+    "canales activos."
+  ],
+  "Ausgabe:": [
+    "Output:",
+    "Sortie :",
+    "Salida:"
+  ],
+  "Bilder/Sekunde.": [
+    "frames/second.",
+    "images/seconde.",
+    "fotogramas/segundo."
+  ],
+  "Bilder/Sekunde": [
+    "frames/second",
+    "images/seconde",
+    "fotogramas/segundo"
+  ],
+  "Empfehlung:": [
+    "Recommendation:",
+    "Conseil :",
+    "Recomendación:"
+  ],
+  "für die aktuelle Kanalzahl.": [
+    "for the current channel count.",
+    "pour le nombre actuel de chaînes.",
+    "para el número actual de canales."
+  ],
+  "Vorsichtiger Startwert für 15 Bilder/Sekunde: bis zu": [
+    "Conservative starting point for 15 frames/second: up to",
+    "Point de départ prudent pour 15 images/seconde : jusqu’à",
+    "Punto de partida prudente para 15 fotogramas/segundo: hasta"
+  ],
+  "Kanäle schrittweise ausprobieren.": [
+    "channels, adding them gradually.",
+    "chaînes, à ajouter progressivement.",
+    "canales, añadiéndolos gradualmente."
+  ],
+  "Bildpunkte/Sekunde.": [
+    "pixels/second.",
+    "pixels/seconde.",
+    "píxeles/segundo."
+  ],
+  "Vorsichtiger Start": [
+    "Conservative start",
+    "Démarrage prudent",
+    "Inicio conservador"
+  ],
+  "Flüssiger Lauftext": [
+    "Smooth ticker",
+    "Bandeau fluide",
+    "Ticker fluido"
+  ],
+  "Sparsam": [
+    "Economical",
+    "Économique",
+    "Ahorro"
+  ],
+  "Sehr sparsam": [
+    "Very economical",
+    "Très économique",
+    "Ahorro máximo"
+  ],
+  "Ressourcen-Richtwert, kein Leistungstest": [
+    "Resource guideline, not a benchmark",
+    "Indication des ressources, pas un test de performance",
+    "Orientación de recursos, no una prueba de rendimiento"
+  ],
+  "CPU-Limits und RAM werden berücksichtigt. Andere Anwendungen, CPU-Modell und aufwendige Designs können die Leistung reduzieren. Erst einen Kanal testen und schrittweise erweitern. Die Empfehlung ändert die laufende Ausgabe nicht.": [
+    "CPU limits and RAM are considered. Other applications, the CPU model and complex designs can reduce performance. Test one channel first and expand gradually. This recommendation does not change the current output.",
+    "Les limites CPU et la RAM sont prises en compte. D’autres applications, le modèle CPU et les designs complexes peuvent réduire les performances. Testez d’abord une chaîne puis augmentez progressivement. Ce conseil ne modifie pas la sortie actuelle.",
+    "Se consideran los límites de CPU y la RAM. Otras aplicaciones, el modelo de CPU y los diseños complejos pueden reducir el rendimiento. Prueba primero un canal y amplía gradualmente. La recomendación no cambia la salida actual."
+  ],
+  "Keine passende Quelle": [
+    "No matching source",
+    "Aucune source correspondante",
+    "No hay fuente coincidente"
+  ],
+  "Bitte einen Ort konfigurieren": [
+    "Please configure a place",
+    "Configurez un lieu",
+    "Configura una localidad"
+  ],
+  "Bitte zuerst einen Standort konfigurieren": [
+    "Please configure a location first",
+    "Configurez d’abord un lieu",
+    "Configura primero una ubicación"
+  ],
+  "Zu viele Anmeldeversuche. Bitte eine Minute warten.": [
+    "Too many login attempts. Wait one minute.",
+    "Trop de tentatives de connexion. Attendez une minute.",
+    "Demasiados intentos de acceso. Espera un minuto."
+  ],
+  "Benutzername oder Passwort ungültig": [
+    "Invalid username or password",
+    "Identifiant ou mot de passe invalide",
+    "Usuario o contraseña no válidos"
+  ],
+  "Anmeldedaten ungültig": [
+    "Invalid credentials",
+    "Identifiants invalides",
+    "Credenciales no válidas"
+  ],
+  "Benutzername oder Passwort ist falsch": [
+    "Incorrect username or password",
+    "Nom d’utilisateur ou mot de passe incorrect",
+    "Usuario o contraseña incorrectos"
+  ],
+  "Aktuelles Passwort falsch": [
+    "Incorrect current password",
+    "Mot de passe actuel incorrect",
+    "Contraseña actual incorrecta"
+  ],
+  "Die Passwörter stimmen nicht überein": [
+    "Passwords do not match",
+    "Les mots de passe ne correspondent pas",
+    "Las contraseñas no coinciden"
+  ],
+  "Höchstens 128 Zeichen": [
+    "At most 128 characters",
+    "128 caractères maximum",
+    "Máximo 128 caracteres"
+  ],
+  "Passwort:": [
+    "Password:",
+    "Mot de passe :",
+    "Contraseña:"
+  ],
+  "Sitzung bestätigen: Seite neu laden und erneut versuchen": [
+    "Confirm session: reload the page and try again",
+    "Confirmez la session : rechargez la page et réessayez",
+    "Confirma la sesión: recarga la página e inténtalo de nuevo"
+  ],
+  "Anfrage von einer anderen Website abgewiesen": [
+    "Request from another website rejected",
+    "Requête d’un autre site refusée",
+    "Solicitud desde otro sitio rechazada"
+  ],
+  "Glasrahmen für Ort, Zeit und Datum; ruhiges Nachrichtenband in Petrol.": [
+    "Glass frames for location, time and date; a calm teal news band.",
+    "Cadres de verre pour lieu, heure et date ; bandeau calme bleu pétrole.",
+    "Marcos de cristal para lugar, hora y fecha; ticker sereno en azul petróleo."
+  ],
+  "Aktuelles Passwort ist falsch": [
+    "Current password is incorrect",
+    "Le mot de passe actuel est incorrect",
+    "La contraseña actual es incorrecta"
+  ],
+  "Neues Passwort fehlt": [
+    "New password missing",
+    "Nouveau mot de passe manquant",
+    "Falta la nueva contraseña"
+  ],
+  "Die Einrichtung wurde bereits abgeschlossen. Bitte anmelden.": [
+    "Setup has already been completed. Please sign in.",
+    "La configuration est déjà terminée. Veuillez vous connecter.",
+    "La configuración ya está completada. Inicia sesión."
+  ],
+  "Zu viele Fehlversuche. Bitte in 15 Minuten erneut versuchen.": [
+    "Too many failed attempts. Try again in 15 minutes.",
+    "Trop de tentatives échouées. Réessayez dans 15 minutes.",
+    "Demasiados intentos fallidos. Inténtalo de nuevo en 15 minutos."
+  ],
+  "Benutzername: 3–64 Zeichen; Buchstaben, Zahlen, Punkt, Bindestrich, Unterstrich oder @": [
+    "Username: 3–64 characters; letters, numbers, dot, hyphen, underscore or @",
+    "Identifiant : 3–64 caractères ; lettres, chiffres, point, tiret, trait de soulignement ou @",
+    "Usuario: 3–64 caracteres; letras, números, punto, guion, guion bajo o @"
+  ],
+  ": maximal 100 MB": [
+    ": maximum 100 MB",
+    ": 100 Mo maximum",
+    ": máximo 100 MB"
+  ],
+  "Füllen Sie dieses Feld aus.": [
+    "Please fill out this field.",
+    "Veuillez remplir ce champ.",
+    "Rellena este campo."
+  ],
+  "Geben Sie eine URL ein.": [
+    "Please enter a URL.",
+    "Veuillez saisir une URL.",
+    "Introduce una URL."
+  ],
+  "Bitte füllen Sie dieses Feld aus.": [
+    "Please fill out this field.",
+    "Veuillez remplir ce champ.",
+    "Rellena este campo."
+  ],
+  "Sendeplatz für Aktuell": [
+    "Position for current weather",
+    "Position de la météo actuelle",
+    "Posición del tiempo actual"
+  ],
+  "Sendeplatz für 7 Tage": [
+    "Position for 7 days",
+    "Position des 7 jours",
+    "Posición de 7 días"
+  ],
+  "Sendeplatz für Stunden": [
+    "Position for hourly weather",
+    "Position de la météo horaire",
+    "Posición del tiempo por horas"
+  ],
+  "Sendeplatz für Wind": [
+    "Position for wind",
+    "Position du vent",
+    "Posición del viento"
+  ],
+  "Sendeplatz für Niederschlag": [
+    "Position for precipitation",
+    "Position des précipitations",
+    "Posición de precipitaciones"
+  ],
+  "Sendeplatz für Radar": [
+    "Position for radar",
+    "Position du radar",
+    "Posición del radar"
+  ],
+  "Sendeplatz für Landeswetter": [
+    "Position for country weather",
+    "Position de la météo nationale",
+    "Posición del tiempo del país"
+  ],
+  "Sendeplatz für Verkehr": [
+    "Position for traffic",
+    "Position du trafic",
+    "Posición del tráfico"
+  ],
+  "Sendeplatz für Wetterkameras": [
+    "Position for weather cameras",
+    "Position des webcams météo",
+    "Posición de cámaras meteorológicas"
+  ],
+  "Tageswetter": [
+    "Current weather",
+    "Météo actuelle",
+    "Tiempo actual"
+  ],
+  "Stundenwetter": [
+    "Hourly weather",
+    "Météo horaire",
+    "Tiempo por horas"
+  ],
+  "Regen / Schnee": [
+    "Rain / snow",
+    "Pluie / neige",
+    "Lluvia / nieve"
+  ],
+  "Regen / Schnee · Prognose": [
+    "Rain / snow · forecast",
+    "Pluie / neige · prévisions",
+    "Lluvia / nieve · pronóstico"
+  ],
+  "Radar · Messbilder": [
+    "Radar · observations",
+    "Radar · observations",
+    "Radar · observaciones"
+  ],
+  "Vorschau": [
+    "Preview",
+    "Aperçu",
+    "Vista previa"
+  ],
+  "Automatik": [
+    "Automatic",
+    "Automatique",
+    "Automático"
+  ],
+  "Vollbild": [
+    "Full screen",
+    "Plein écran",
+    "Pantalla completa"
+  ],
+  "manuell angehalten": [
+    "manually paused",
+    "en pause manuelle",
+    "pausa manual"
+  ],
+  "Vorschau-Steuerung": [
+    "Preview controls",
+    "Commandes de l’aperçu",
+    "Controles de vista previa"
+  ],
+  "Vorherige Seite": [
+    "Previous page",
+    "Page précédente",
+    "Página anterior"
+  ],
+  "Nächste Seite": [
+    "Next page",
+    "Page suivante",
+    "Página siguiente"
+  ],
+  "Die Auswahl verändert nur diese Vorschau, nicht den Stream.": [
+    "The selection affects only this preview, not the stream.",
+    "Le choix ne modifie que cet aperçu, pas le flux.",
+    "La selección solo cambia esta vista previa, no el flujo."
+  ],
+  "Vergangene Messbilder von RainViewer": [
+    "Past observations from RainViewer",
+    "Observations passées de RainViewer",
+    "Observaciones pasadas de RainViewer"
+  ],
+  "Logo visuell platzieren": [
+    "Position logo visually",
+    "Positionner le logo visuellement",
+    "Colocar logotipo visualmente"
+  ],
+  "Senderlogo positionieren": [
+    "Position channel logo",
+    "Positionner le logo de chaîne",
+    "Colocar logotipo del canal"
+  ],
+  "Logo ziehen zum Verschieben. Den Griff unten rechts ziehen, um die Größe zu ändern. Beim Verschieben wird die freie Position aktiviert.": [
+    "Drag the logo to move it. Drag its bottom-right handle to resize. Moving switches to free positioning.",
+    "Faites glisser le logo pour le déplacer. Utilisez la poignée en bas à droite pour le redimensionner. Le déplacement active la position libre.",
+    "Arrastra el logotipo para moverlo. Usa el tirador inferior derecho para cambiar su tamaño. Al moverlo se activa la posición libre."
+  ],
+  "Interaktiver Senderlogo-Editor": [
+    "Interactive channel logo editor",
+    "Éditeur interactif du logo de chaîne",
+    "Editor interactivo del logotipo"
+  ],
+  "Die Pfeiltasten verschieben das Logo. Am Größen-Griff ändern sie die Größe. Mit Umschalt sind die Schritte größer.": [
+    "Arrow keys move the logo. On the resize handle, they change its size. Hold Shift for larger steps.",
+    "Les flèches déplacent le logo. Sur la poignée, elles changent sa taille. Maintenez Maj pour des pas plus grands.",
+    "Las flechas mueven el logotipo. En el tirador cambian el tamaño. Mantén Mayús para pasos mayores."
+  ],
+  "Zurücksetzen": [
+    "Reset",
+    "Réinitialiser",
+    "Restablecer"
+  ],
+  "Abbrechen": [
+    "Cancel",
+    "Annuler",
+    "Cancelar"
+  ],
+  "Position übernehmen": [
+    "Apply position",
+    "Appliquer la position",
+    "Aplicar posición"
+  ],
+  "Bitte zuerst ein Senderlogo hochladen.": [
+    "Please upload a channel logo first.",
+    "Importez d’abord un logo de chaîne.",
+    "Primero sube un logotipo de canal."
+  ],
+  "Logo-Editor wird geladen …": [
+    "Loading logo editor …",
+    "Chargement de l’éditeur de logo…",
+    "Cargando editor de logotipo…"
+  ],
+  "Breite": [
+    "Width",
+    "Largeur",
+    "Ancho"
+  ],
+  "Position und Größe übernommen. Zum dauerhaften Speichern das Kanaldesign speichern.": [
+    "Position and size applied. Save the channel design to keep them permanently.",
+    "Position et taille appliquées. Enregistrez le design de la chaîne pour les conserver.",
+    "Posición y tamaño aplicados. Guarda el diseño del canal para conservarlos."
+  ],
+  "Senderlogo verschieben": [
+    "Move channel logo",
+    "Déplacer le logo de chaîne",
+    "Mover logotipo del canal"
+  ],
+  "Senderlogo-Größe ändern": [
+    "Resize channel logo",
+    "Redimensionner le logo de chaîne",
+    "Cambiar tamaño del logotipo"
+  ],
+  "YouTube-Video / Livestream": [
+    "YouTube video / livestream",
+    "Vidéo YouTube / direct",
+    "Vídeo de YouTube / directo"
+  ],
+  "YouTube: Video- oder Livestream-Link einfügen, keinen Kanal- oder Playlist-Link. Die Kameraposition unten manuell angeben. YouTube prüft Einbettung und Wiedergabe im Player; eine Sperre wird angezeigt.": [
+    "YouTube: paste a video or livestream link, not a channel or playlist. Enter the camera position below. The player checks embedding and playback; restrictions are shown.",
+    "YouTube : collez un lien de vidéo ou de direct, pas une chaîne ou playlist. Indiquez la position de la caméra ci-dessous. Le lecteur vérifie la lecture et signale les restrictions.",
+    "YouTube: pega un enlace de vídeo o directo, no de canal ni lista. Indica abajo la posición de la cámara. El reproductor comprueba la reproducción y muestra las restricciones."
+  ],
+  "YouTube-Kamera gespeichert. Die Wiedergabe wird in der Kamera-Vorschau geprüft.": [
+    "YouTube camera saved. Playback is checked in the camera preview.",
+    "Caméra YouTube enregistrée. La lecture sera vérifiée dans l’aperçu.",
+    "Cámara de YouTube guardada. La reproducción se comprueba en la vista previa."
+  ],
+  "Gültigen YouTube-Video- oder Livestream-Link angeben": [
+    "Enter a valid YouTube video or livestream link",
+    "Indiquez un lien YouTube valide de vidéo ou de direct",
+    "Introduce un enlace válido de vídeo o directo de YouTube"
+  ],
+  "Nur echte öffentliche YouTube-Video-Links zulässig": [
+    "Only genuine public YouTube video links are accepted",
+    "Seuls les liens vidéo YouTube publics authentiques sont acceptés",
+    "Solo se aceptan enlaces públicos auténticos de YouTube"
+  ],
+  "YouTube-Link benötigt eine Video-ID: watch?v=…, youtu.be/… oder /live/…. Kanal- und Playlist-Links sind nicht unterstützt.": [
+    "The YouTube link needs a video ID: watch?v=…, youtu.be/… or /live/…. Channel and playlist links are not supported.",
+    "Le lien YouTube doit contenir un identifiant vidéo : watch?v=…, youtu.be/… ou /live/…. Les liens de chaîne et playlist ne sont pas pris en charge.",
+    "El enlace de YouTube necesita un ID de vídeo: watch?v=…, youtu.be/… o /live/…. No se admiten enlaces de canal ni lista."
+  ],
+  "Für YouTube einen YouTube-Video- oder Livestream-Link angeben": [
+    "For YouTube, enter a YouTube video or livestream link",
+    "Pour YouTube, indiquez un lien de vidéo ou de direct YouTube",
+    "Para YouTube, introduce un enlace de vídeo o directo de YouTube"
+  ],
+  "Nur für private, nicht gewerbliche Nutzung.": [
+    "For private, non-commercial use only.",
+    "Réservé à un usage privé et non commercial.",
+    "Solo para uso privado y no comercial."
+  ],
+  "Lizenzbedingungen": [
+    "License terms",
+    "Conditions de licence",
+    "Condiciones de licencia"
+  ],
+  "Google Maps für das Radar": [
+    "Google Maps for radar",
+    "Google Maps pour le radar",
+    "Google Maps para el radar"
+  ],
+  "Google Maps · Karte": [
+    "Google Maps · Map",
+    "Google Maps · Carte",
+    "Google Maps · Mapa"
+  ],
+  "Google Maps · Satellit": [
+    "Google Maps · Satellite",
+    "Google Maps · Satellite",
+    "Google Maps · Satélite"
+  ],
+  "Google Maps · Hybrid (Satellit + Straßen)": [
+    "Google Maps · Hybrid (satellite + roads)",
+    "Google Maps · Hybride (satellite + routes)",
+    "Google Maps · Híbrido (satélite + carreteras)"
+  ],
+  "Google Maps · Gelände": [
+    "Google Maps · Terrain",
+    "Google Maps · Relief",
+    "Google Maps · Relieve"
+  ],
+  "Eigener Google-Maps-Browser-Key": [
+    "Your Google Maps browser key",
+    "Votre clé Google Maps pour navigateur",
+    "Tu clave de Google Maps para navegador"
+  ],
+  "Leer lassen: vorhandenen Key behalten": [
+    "Leave blank: keep existing key",
+    "Laisser vide : conserver la clé",
+    "Dejar vacío: conservar la clave"
+  ],
+  "Gespeicherten Google-Key entfernen": [
+    "Remove stored Google key",
+    "Supprimer la clé Google enregistrée",
+    "Eliminar la clave de Google guardada"
+  ],
+  "Google-Karte auch im Sendestream verwenden (Nutzungsfreigabe geprüft)": [
+    "Use Google map in broadcast too (usage permission checked)",
+    "Utiliser aussi Google dans le flux TV (droits vérifiés)",
+    "Usar Google también en la emisión (permisos comprobados)"
+  ],
+  "Google-Maps-Einstellungen speichern": [
+    "Save Google Maps settings",
+    "Enregistrer les paramètres Google Maps",
+    "Guardar ajustes de Google Maps"
+  ],
+  "Google-Key absichern ↗": [
+    "Secure Google key ↗",
+    "Sécuriser la clé Google ↗",
+    "Proteger la clave de Google ↗"
+  ],
+  "Google-Key gespeichert. Kartenanbieter pro Kanal auswählen.": [
+    "Google key saved. Choose the map provider per channel.",
+    "Clé Google enregistrée. Choisissez le fournisseur par chaîne.",
+    "Clave de Google guardada. Elige el proveedor por canal."
+  ],
+  "Kein Google-Key gespeichert. Bisherige Karten bleiben aktiv.": [
+    "No Google key saved. Existing maps remain active.",
+    "Aucune clé Google enregistrée. Les cartes existantes restent actives.",
+    "No hay clave de Google guardada. Los mapas actuales siguen activos."
+  ],
+  "Google-Maps-Einstellungen gespeichert.": [
+    "Google Maps settings saved.",
+    "Paramètres Google Maps enregistrés.",
+    "Ajustes de Google Maps guardados."
+  ],
+  "Optionaler Kartenanbieter. Die bisherigen Karten bleiben verfügbar. Google Maps JavaScript API und Abrechnung im eigenen Google-Cloud-Projekt aktivieren.": [
+    "Optional map provider. Existing maps remain available. Enable Maps JavaScript API and billing in your own Google Cloud project.",
+    "Fournisseur facultatif. Les cartes existantes restent disponibles. Activez Maps JavaScript API et la facturation dans votre projet Google Cloud.",
+    "Proveedor opcional. Los mapas actuales siguen disponibles. Activa Maps JavaScript API y la facturación en tu proyecto de Google Cloud."
+  ],
+  "Der Browser-Key ist in der Kartenansicht technisch sichtbar. Auf die benötigten Websites und ausschließlich die Maps JavaScript API beschränken. Jeder Betreiber benötigt seinen eigenen Key. Kartenaufrufe können Kosten verursachen. Für TV-/IPTV-Nutzung die Google-Nutzungsrechte klären. Ohne Freigabe verwendet der Sendestream weiterhin die bisherige Karte.": [
+    "The browser key is technically visible in the map view. Restrict it to the required websites and Maps JavaScript API only. Each operator needs their own key. Map loads can incur charges. Clarify Google usage rights for TV/IPTV. Without broadcast enabled, the stream continues using the existing map.",
+    "La clé du navigateur est techniquement visible dans la carte. Limitez-la aux sites requis et à Maps JavaScript API uniquement. Chaque opérateur doit utiliser sa propre clé. Les chargements peuvent être facturés. Vérifiez les droits Google pour la TV/IPTV. Sans activation, le flux conserve la carte existante.",
+    "La clave del navegador es técnicamente visible en el mapa. Limítala a los sitios necesarios y solo a Maps JavaScript API. Cada operador necesita su propia clave. Las cargas pueden generar costes. Aclara los derechos de Google para TV/IPTV. Sin activación, la emisión mantiene el mapa actual."
+  ],
+  "Google benötigt einen eigenen API-Key unter „Ausgaben & Quellen“. Alle Stile verwenden Radar-Zoom beziehungsweise Radar-Distanz und die gespeicherte GPS-Position. Satellitenbilder sind Archivaufnahmen. Nachtoptik ist ein Farbfilter, keine nächtliche Liveaufnahme.": [
+    "Google requires your own API key under “Outputs & sources”. All styles use the radar zoom or distance and the saved GPS position. Satellite imagery is archival. Night appearance is a colour filter, not live night imagery.",
+    "Google nécessite votre clé API dans « Sorties et sources ». Tous les styles utilisent le zoom ou la distance du radar et le point GPS enregistré. Les images satellites sont des archives. Le mode nocturne est un filtre, pas une prise de vue nocturne en direct.",
+    "Google necesita tu clave API en « Salidas y fuentes ». Todos los estilos usan el zoom o la distancia del radar y la posición GPS guardada. Las imágenes satélite son de archivo. El aspecto nocturno es un filtro, no una imagen nocturna en directo."
+  ],
+  "Ungefähre Entfernung vom Mittelpunkt bis zum linken/rechten Bildrand (1–5000 km). Beispiel: 200 km ergibt etwa 400 km Bildbreite. Die Nord-Süd-Ausdehnung hängt vom Bildformat ab. Ohne Angabe gilt der bisherige Ausschnitt. Kleine Radien vergrößern die Karte, nicht die Auflösung der Radarmessdaten.": [
+    "Approximate distance from the centre to the left/right edge (1–5000 km). For example, 200 km gives about 400 km of map width. North–south coverage depends on the aspect ratio. Leave empty to keep the current view. Small radii enlarge the map, not radar measurement resolution.",
+    "Distance approximative du centre au bord gauche/droit (1–5000 km). Par exemple, 200 km donnent environ 400 km de largeur. L’étendue nord-sud dépend du format. Laissez vide pour conserver la vue actuelle. Les petits rayons agrandissent la carte, pas la résolution du radar.",
+    "Distancia aproximada del centro al borde izquierdo/derecho (1–5000 km). Por ejemplo, 200 km equivalen a unos 400 km de ancho. La extensión norte-sur depende del formato. Déjalo vacío para mantener la vista. Los radios pequeños amplían el mapa, no la resolución del radar."
+  ]
+}

@@ -1,0 +1,87 @@
+METEONOVA Proprietäre Nutzungslizenz 1.1 · Private Nutzung
+Copyright (c) 2026 s3bb3lhu. Alle vorbehaltenen Rechte bleiben vorbehalten.
+
+1. Geltungsbereich und Rechteinhaber
+Diese Lizenz gilt ausschließlich für die eigenen schutzfähigen Bestandteile von
+METEONOVA / Meteonavo / Weather Channel Studio, soweit s3bb3lhu daran Rechte
+zustehen. Sie begründet keine Rechte an fremden Werken oder an nicht
+schutzfähigen Inhalten. Fremdkomponenten, Daten und Medien unterliegen ihren
+eigenen Lizenzen und Bedingungen; siehe THIRD_PARTY_NOTICES.md.
+
+2. Erlaubte Nutzung
+Der Rechteinhaber gestattet unentgeltlich, nicht ausschließlich und ohne
+Übertragungs- oder Unterlizenzierungsrecht den Bezug aus seiner autorisierten
+Veröffentlichung sowie Installation, Ausführung und Sicherung der unveränderten
+Software ausschließlich für private, nicht gewerbliche Zwecke. Das umfasst die dafür erforderlichen technischen
+Kopien. Die Verwendung der vorgesehenen Einstellungen, das Anlegen eigener
+Konfigurationen sowie das Einbinden eigener rechtmäßig nutzbarer Logos, Bilder,
+Musik oder Quellen sind zulässig und gelten nicht als Änderung des Programmcodes.
+Der Betrieb eigener Wetterkanäle zu diesen privaten, nicht gewerblichen Zwecken
+ist gestattet, vorbehaltlich der Rechte an den
+verwendeten Inhalten und Diensten. Ein zusätzlicher Supportanspruch entsteht nicht.
+
+Eine gewerbliche, geschäftliche oder berufliche Nutzung ist durch diese Lizenz
+nicht gestattet. Dies umfasst insbesondere entgeltliche oder durch Werbung oder
+Sponsoring finanzierte eigene Angebote sowie den Einsatz im Rahmen einer geschäftlichen oder
+beruflichen Tätigkeit. Eine Zustimmung zu Änderungen oder Weitergabe nach Ziffer 3
+erteilt für sich genommen keine Erlaubnis zur gewerblichen Nutzung.
+Diese Fassung gilt für die hiermit veröffentlichte Softwarefassung. Bereits zuvor
+wirksam eingeräumte Rechte werden nicht rückwirkend eingeschränkt.
+
+3. Zustimmungspflicht
+Jede Änderung, Bearbeitung, Übersetzung oder Erstellung abgeleiteter Fassungen
+der eigenen Programmcodes, Skripte und sonstigen geschützten Projektbestandteile
+bedarf der vorherigen ausdrücklichen Zustimmung des Rechteinhabers in Textform
+(zum Beispiel per E-Mail oder eindeutig zuordenbarer GitHub-Nachricht).
+Dies gilt auch für rein interne Änderungen, soweit zwingendes Recht nicht
+etwas anderes erlaubt.
+Auch jede Weitergabe, erneute Veröffentlichung oder Bereitstellung an Dritte
+als Quelltext, Binärdatei, Archiv, Paket, Container-Image oder Bestandteil eines
+anderen Produkts bedarf dieser Zustimmung, unabhängig davon, ob sie unverändert
+oder verändert und kostenlos oder entgeltlich erfolgt. Ohne Zustimmung dürfen
+keine öffentlichen Spiegel, Weiterveröffentlichungen oder abgeleiteten Produkte
+bereitgestellt werden. Eine erteilte Zustimmung gilt nur im ausdrücklich
+vereinbarten Umfang. Schweigen ist keine Zustimmung.
+
+4. Rechte- und Plattformhinweise
+Urheber-, Lizenz- und Quellenhinweise dürfen nicht entfernt oder irreführend
+verändert werden. Rechte, die eine Hosting-Plattform aufgrund ihrer geltenden
+Nutzungsbedingungen zwingend für das autorisierte öffentliche Repository
+einräumen lässt (etwa dessen Anzeige und plattforminterne technische Kopien),
+bleiben unberührt. Daraus entsteht hier keine weitergehende Erlaubnis zur
+Änderung, Verwertung oder Weiterveröffentlichung außerhalb dieses Umfangs.
+Diese Lizenz ist keine Open-Source-Lizenz.
+
+5. Gesetzliche Ausnahmen und Fremdrechte
+Zwingende gesetzliche Befugnisse bleiben unberührt, insbesondere unabdingbare
+Befugnisse für Sicherungskopien, Untersuchung und Interoperabilität nach
+§§ 69d, 69e, 69g UrhG, soweit anwendbar. Diese Lizenz beschränkt keine Rechte,
+die Drittlizenzen an den betreffenden Fremdkomponenten gewähren. Sie erteilt
+keine Rechte an Marken, Musik, Nachrichten, Kameraübertragungen oder API-Diensten
+Dritter und ist keine Zusage der rechtlichen Zulässigkeit einer Ausstrahlung.
+
+6. Beschaffenheit und Haftung
+Die Software wird ohne vereinbarte Beschaffenheits- oder Verfügbarkeitsgarantie
+bereitgestellt. Insbesondere werden Fehlerfreiheit, Vollständigkeit und die
+Richtigkeit von Wetter-, Warn- oder Verkehrsinformationen nicht zugesichert.
+Haftungsausschlüsse gelten nur im gesetzlich zulässigen Umfang. Unberührt
+bleibt insbesondere die Haftung für Vorsatz, grobe Fahrlässigkeit, Schäden an
+Leben, Körper oder Gesundheit, arglistig verschwiegene Mängel, ausdrücklich
+übernommene Garantien sowie zwingende gesetzliche Haftung.
+
+7. Anfragen und Sprache
+Zustimmungsanfragen an den Rechteinhaber: https://github.com/s3bb3lhu
+Repository: https://github.com/s3bb3lhu/weather-channel-studio
+Maßgeblich ist diese deutsche Fassung. Eine rechtliche Einzelfallprüfung und
+eine Aussage zur Schutzfähigkeit einzelner KI-generierter Inhalte ersetzt
+dieser Lizenztext nicht.
+
+English summary (non-binding): You may obtain the unmodified software from
+the owner's authorized publication and install/run it solely for private,
+non-commercial purposes. Commercial, business and professional use is not
+permitted by this license. Earlier rights validly granted remain unaffected.
+Using its configuration and upload features is allowed. Changes to protected
+project code and redistribution or republication, modified or unmodified,
+require prior express permission from s3bb3lhu in text form. Mandatory legal
+rights, platform terms and third-party licenses remain unaffected. This is
+proprietary software, not an open-source license. The German text governs.

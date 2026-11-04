@@ -1,0 +1,14 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const ctx=vm.createContext({num:(v,u='')=>v==null?'—':String(v)+u,escapeText:s=>String(s).replaceAll('<','&lt;')});
+vm.runInContext(fs.readFileSync('app/static/forecast-graphics.js','utf8'),ctx);
+vm.runInContext(`h={time:['2026-11-02T12:00','2026-11-02T13:00','2026-11-02T14:00','2026-11-02T15:00','2026-11-02T16:00','2026-11-02T17:00'],temperature_2m:[4,null,8,9,6,3],rain:[0,null,2,1,0,0],snowfall:[0,0,0,0,0,0],wind_speed_10m:[12,11,10,9,8,7],precipitation_probability:[10,20,30,40,50,60]}`,ctx);
+const hourly=vm.runInContext("forecastGraphic(h,0,'hourly')",ctx);
+assert.equal((hourly.match(/<circle /g)||[]).length,5,'Missing temperature must not become a zero-valued chart point');
+assert.equal((hourly.match(/stroke-width="3" stroke-linecap/g)||[]).length,3,'Missing values break the line');
+assert.match(hourly,/60 %/);assert.match(hourly,/17:00/);assert.ok(!/NaN|undefined|Infinity/.test(hourly));
+const rain=vm.runInContext("forecastGraphic(h,0,'precipitation')",ctx);
+assert.equal((rain.match(/<rect /g)||[]).length,5);assert.match(rain,/2 mm/);assert.match(rain,/Schnee 0 cm/);
+assert.ok(!/NaN|undefined|Infinity/.test(vm.runInContext("forecastGraphic(h,5,'hourly')",ctx)));
+assert.equal(vm.runInContext('dayRange({temperature_2m_min:[null],temperature_2m_max:[null]},0)',ctx),'');
+assert.match(vm.runInContext('dayRange({temperature_2m_min:[0,5],temperature_2m_max:[10,20]},1)',ctx),/margin-left:25%;width:75%/);
+console.log('Forecast charts: true values, missing-value gaps, final hour and relative daily ranges OK');

@@ -1,0 +1,77 @@
+/* Broadcast-safe motion: transforms and opacity, restrained at the 10fps target. */
+.tv{isolation:isolate;color:var(--ink,#edf7ff)}
+.tv::before{content:'';position:absolute;inset:-12%;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 75% 20%,var(--accent) 0,transparent 55%);opacity:.07;animation:atmosphere 24s ease-in-out infinite alternate}
+.tv header,.tv footer,.tv h2,.tv #content{position:relative}
+.tv header{align-items:center}
+.tv h1{letter-spacing:-1px}
+#clock{font-variant-numeric:tabular-nums;font-size:18px;text-align:right}
+.now-layout{display:grid;grid-template-columns:1.35fr 1fr;align-items:center;min-height:228px}
+.temperature-line{display:flex;align-items:baseline;gap:10px}
+.hero{letter-spacing:-6px;line-height:1.12;font-variant-numeric:tabular-nums}
+.weather-description{font-size:30px;margin-top:8px;opacity:.9}
+.weather-visual{display:flex;align-items:center;justify-content:center;position:relative;height:212px}
+.weather-visual::before{content:'';position:absolute;width:200px;height:200px;border:1px solid currentColor;border-radius:50%;opacity:.08}
+.weather-art{width:265px;height:212px;color:#f6c967;overflow:visible}
+.weather-art .sun{opacity:.95}
+.sun-rays{transform-origin:120px 76px;animation:solar-turn 36s linear infinite}
+.cloud{fill:var(--cloud,#e6f1f8);stroke:var(--cloud-edge,#ffffff70);stroke-width:2;animation:cloud-float 7s ease-in-out infinite alternate}
+.rain{fill:none;stroke:var(--rain,#69cfff);stroke-width:5;stroke-linecap:round;animation:rain-fall 1.8s ease-in infinite}
+.snow{fill:var(--rain,#69cfff);font-size:22px;animation:snow-fall 4s ease-in-out infinite}
+.lightning{fill:#ffda73;animation:storm-flash 5s ease-in-out infinite}
+.weather-art.small{width:78px;height:62px;display:block;margin:4px auto -2px}
+.metrics{gap:16px;margin-top:10px}
+.metric{flex:1;font-size:20px;padding:15px 18px;line-height:1.7}
+.metric strong{font-size:25px;font-variant-numeric:tabular-nums}
+.page-enter{animation:page-reveal .65s cubic-bezier(.2,.8,.2,1) both}
+.page-enter .metric,.page-enter .day{animation:card-reveal .7s cubic-bezier(.2,.8,.2,1) both}
+.page-enter .metric:nth-child(2),.page-enter .day:nth-child(2){animation-delay:.06s}
+.page-enter .metric:nth-child(3),.page-enter .day:nth-child(3){animation-delay:.12s}
+.page-enter .metric:nth-child(4),.page-enter .day:nth-child(4){animation-delay:.18s}
+.page-enter .day:nth-child(5){animation-delay:.24s}.page-enter .day:nth-child(6){animation-delay:.3s}.page-enter .day:nth-child(7){animation-delay:.36s}
+.day{padding:12px 8px;font-size:18px;line-height:1.7;min-width:0}.day strong{font-size:28px}.day .condition{font-size:16px;min-height:30px}
+.day-date{text-transform:uppercase;font-size:17px;letter-spacing:.5px}
+.day-rain{font-size:15px;opacity:.75;margin-top:9px}
+.compass{height:210px;width:210px;border-radius:50%;border:1px solid #ffffff30;position:relative;display:grid;place-items:center;background:#ffffff08}
+.compass::before{content:'N';position:absolute;top:14px;font-size:18px;color:var(--accent)}
+.wind-arrow{font-size:100px;color:var(--accent);transform:rotate(var(--wind-direction,0deg));line-height:1}
+.wind-rings{position:absolute;inset:-15px;border-radius:50%;border:1px dashed currentColor;opacity:.12;animation:solar-turn 60s linear infinite}
+.page-nav{display:flex;gap:7px;align-items:center;margin-top:10px;height:5px}
+.page-nav span{width:24px;height:3px;border-radius:3px;background:currentColor;opacity:.15;transition:width .5s,opacity .5s}
+.page-nav span.active{width:64px;background:var(--accent);opacity:1}
+.tv .ticker{color:#edf7ff}
+.tv[data-theme=aurora]{background:radial-gradient(ellipse at 90% 0,#32447555,transparent 65%),var(--bg);--cloud:#d2e6ef;--cloud-edge:#ffffff80}
+.tv[data-theme=aurora]::before{opacity:.23;background:radial-gradient(ellipse at 15% 80%,#7765c6,transparent 55%),radial-gradient(ellipse at 80% 0,var(--accent),transparent 55%)}
+.tv[data-theme=aurora] .metric,.tv[data-theme=aurora] .day{border-radius:18px;background:linear-gradient(135deg,#ffffff12,#ffffff05);border-color:#ffffff22;box-shadow:0 10px 30px #00000015}
+.tv[data-theme=aurora] header{border-bottom-width:1px;border-color:#ffffff30}.tv[data-theme=aurora] h1{font-weight:600}.tv[data-theme=aurora] .hero{font-weight:500;font-size:116px}
+.tv[data-theme=noir]{--cloud:#d8dcdf;--cloud-edge:#ffffff60;background:linear-gradient(115deg,#ffffff04 1px,transparent 1px) 0 0/48px 48px,var(--bg)}
+.tv[data-theme=noir]::before{background:linear-gradient(120deg,transparent 50%,var(--accent));opacity:.1}
+.tv[data-theme=noir] header{border-bottom-width:3px}.tv[data-theme=noir] .brand{letter-spacing:5px;font-size:15px}.tv[data-theme=noir] h1{text-transform:uppercase;font-size:42px;letter-spacing:1px}
+.tv[data-theme=noir] .metric,.tv[data-theme=noir] .day{border-radius:0;border-width:0 0 2px;border-color:var(--accent);background:#ffffff06}
+.tv[data-theme=noir] .hero{font-weight:800;font-size:120px}.tv[data-theme=noir] h2{text-transform:uppercase;font-size:24px;letter-spacing:2px}
+.tv[data-theme=noir] .ticker-source{background:var(--accent)}
+.tv[data-theme=solar]{--ink:#392c29;--cloud:#fff8ef;--cloud-edge:#c7aa8f;--rain:#8272a6;background:radial-gradient(ellipse at 100% 50%,#ecb58970,transparent 65%),var(--bg)}
+.tv[data-theme=solar]::before{background:radial-gradient(ellipse at 80% 40%,#df7c60,transparent 55%);opacity:.15}
+.tv[data-theme=solar] .metric,.tv[data-theme=solar] .day{border:1px solid #8c635c28;background:#ffffff60;border-radius:24px}
+.tv[data-theme=solar] h1{font-size:42px;font-weight:500}.tv[data-theme=solar] .hero{font-weight:500}.tv[data-theme=solar] header{border-bottom-width:1px;border-color:#b89b8d60}
+.tv[data-theme=solar] footer,.tv[data-theme=solar] #status{color:#705b55;border-color:#b89b8d50}.tv[data-theme=solar] td,.tv[data-theme=solar] th{border-color:#b89b8d50}
+.tv[data-theme=arctic]{--ink:#163949;--cloud:#c9deea;--cloud-edge:#aac5d4;--rain:#238eb7;background:linear-gradient(130deg,#ffffff99,transparent 70%),var(--bg)}
+.tv[data-theme=arctic]::before{opacity:.08}
+.tv[data-theme=arctic] header{border-bottom-width:1px;border-color:#aac9d8}.tv[data-theme=arctic] h1{font-weight:400;font-size:42px}.tv[data-theme=arctic] .brand{font-size:15px;letter-spacing:4px}
+.tv[data-theme=arctic] .metric,.tv[data-theme=arctic] .day{background:#ffffff90;border:1px solid #bcd5e260;border-radius:10px;box-shadow:0 8px 20px #16394906}
+.tv[data-theme=arctic] .hero{font-size:116px;font-weight:400}.tv[data-theme=arctic] footer{color:#57717f;border-color:#bcd5e2}.tv[data-theme=arctic] td,.tv[data-theme=arctic] th{border-color:#bcd5e2}
+.tv[data-theme=solar] .compass,.tv[data-theme=arctic] .compass{border-color:#16394930;background:#ffffff50}
+.tv.no-motion::before,.tv.no-motion .sun-rays,.tv.no-motion .cloud,.tv.no-motion .rain,.tv.no-motion .snow,.tv.no-motion .lightning,.tv.no-motion .wind-rings,.tv.no-motion .page-enter,.tv.no-motion .page-enter .metric,.tv.no-motion .page-enter .day{animation:none}
+.design-picker{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:15px 0}
+.design-choice{display:block;border:1px solid #547087;border-radius:12px;padding:18px;text-decoration:none;min-height:116px;position:relative;overflow:hidden;text-align:left}
+.design-choice strong{display:block;font-size:23px;margin-bottom:6px}.design-choice small{display:block;font-size:15px;line-height:1.5;opacity:.8}.design-choice.active{outline:3px solid #33c9f2;outline-offset:2px}
+.design-choice[data-theme=aurora]{color:#eafffa;background:linear-gradient(130deg,#17233c,#364651)}.design-choice[data-theme=noir]{color:#ffcd91;background:#181b20;border-bottom:3px solid #ffad55}.design-choice[data-theme=solar]{color:#653c30;background:linear-gradient(130deg,#f6e9da,#edb992)}.design-choice[data-theme=arctic]{color:#163949;background:linear-gradient(130deg,#f7fcff,#cde6f1)}
+.design-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.design-actions button,.design-actions a{font-size:14px;padding:7px 10px;border-radius:5px}.design-actions a{color:inherit;border:1px solid currentColor;text-decoration:none}
+@keyframes atmosphere{from{transform:translate(-2%,-1%) rotate(-3deg)}to{transform:translate(3%,2%) rotate(3deg)}}
+@keyframes solar-turn{to{transform:rotate(360deg)}}
+@keyframes cloud-float{to{transform:translate(7px,-4px)}}
+@keyframes rain-fall{0%{transform:translate(3px,-4px);opacity:.2}50%{opacity:1}100%{transform:translate(-3px,7px);opacity:.2}}
+@keyframes snow-fall{0%,100%{transform:translate(-2px,-3px)}50%{transform:translate(3px,5px)}}
+@keyframes storm-flash{0%,85%,100%{opacity:.9}89%{opacity:.15}92%{opacity:1}}
+@keyframes page-reveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes card-reveal{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:650px){.design-picker{grid-template-columns:1fr}}

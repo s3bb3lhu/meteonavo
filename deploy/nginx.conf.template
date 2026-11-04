@@ -1,0 +1,90 @@
+worker_processes auto;
+pid /var/run/nginx.pid;
+# IPTV URLs contain credentials. Do not write request URLs to access/error logs.
+error_log /dev/null;
+events { worker_connections 1024; }
+
+stream {
+    map $ssl_preread_protocol $meteonavo_transport {
+        ""      127.0.0.1:7080;
+        default 127.0.0.1:7443;
+    }
+    server {
+        listen 7373;
+        ssl_preread on;
+        preread_timeout 10s;
+        proxy_connect_timeout 5s;
+        proxy_timeout 1h;
+        proxy_protocol on;
+        proxy_pass $meteonavo_transport;
+    }
+}
+
+http {
+    include /etc/nginx/mime.types;
+    default_type application/octet-stream;
+    access_log off;
+    server_tokens off;
+    resolver 127.0.0.11 valid=10s ipv6=off;
+    upstream meteonavo_api {
+        zone meteonavo_api 64k;
+        server api:8080 resolve;
+    }
+    set_real_ip_from 127.0.0.1;
+    real_ip_header proxy_protocol;
+    client_max_body_size 100m;
+    client_body_timeout 60s;
+    proxy_http_version 1.1;
+    proxy_set_header Host ${PUBLIC_HOST}:${PUBLIC_PORT};
+    proxy_set_header X-Forwarded-For $remote_addr;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header Connection "";
+    proxy_redirect off;
+    proxy_buffering off;
+    proxy_read_timeout 1h;
+    add_header X-Content-Type-Options nosniff always;
+    add_header X-Frame-Options SAMEORIGIN always;
+    add_header Referrer-Policy strict-origin-when-cross-origin always;
+    # No HSTS: its host-wide upgrade policy would conflict with HTTP IPTV.
+
+    server {
+        listen 127.0.0.1:7080 proxy_protocol;
+        server_name ${PUBLIC_HOST};
+        location = /health { proxy_pass http://meteonavo_api; }
+        location ~ ^/(?:player_api\.php|get\.php|xmltv\.php|playlist\.m3u|playlist/[1-5]\.m3u)$ {
+            proxy_set_header Host ${PUBLIC_HOST}:${PUBLIC_PORT};
+            proxy_set_header X-Forwarded-For $remote_addr;
+            proxy_set_header X-Forwarded-Proto http;
+            proxy_set_header Cookie "";
+            proxy_set_header Authorization "";
+            proxy_pass http://meteonavo_api;
+        }
+        location /live/ {
+            proxy_set_header Host ${PUBLIC_HOST}:${PUBLIC_PORT};
+            proxy_set_header X-Forwarded-For $remote_addr;
+            proxy_set_header X-Forwarded-Proto http;
+            proxy_set_header Cookie "";
+            proxy_set_header Authorization "";
+            proxy_pass http://meteonavo_api;
+        }
+        location / {
+            if ($request_method !~ ^(?:GET|HEAD)$) { return 426; }
+            return 308 https://${PUBLIC_HOST}:${PUBLIC_PORT}$request_uri;
+        }
+    }
+
+    server {
+        listen 127.0.0.1:7443 ssl proxy_protocol;
+        server_name ${PUBLIC_HOST};
+        ssl_certificate /etc/letsencrypt/live/${TLS_CERT_NAME}/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/${TLS_CERT_NAME}/privkey.pem;
+        ssl_protocols TLSv1.2 TLSv1.3;
+        ssl_session_cache shared:meteonavo_tls:10m;
+        ssl_session_timeout 1h;
+        location ^~ /api/auth/ {
+            client_max_body_size 16k;
+            proxy_pass http://meteonavo_api;
+        }
+        location / { proxy_pass http://meteonavo_api; }
+    }
+}

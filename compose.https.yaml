@@ -1,0 +1,45 @@
+# Production edge: HTTPS administration and HTTP IPTV on the same public port.
+# Requires Docker Compose >= 2.24.4 (!reset) and an existing trusted certificate.
+services:
+  api:
+    ports: !reset []
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080", "--proxy-headers", "--forwarded-allow-ips=*", "--no-access-log"]
+    environment:
+      PUBLIC_BASE_URL: https://${PUBLIC_HOST:?Set PUBLIC_HOST}:${PORT:-7373}
+      OUTPUT_BASE_URL: http://${PUBLIC_HOST:?Set PUBLIC_HOST}:${PORT:-7373}
+      SESSION_COOKIE_NAME: __Host-meteonavo-session
+  gateway:
+    image: nginx:1.30.6-alpine@sha256:0e52bd054126cdc040b1276c0af347aeb02a41b9cfe305d6094767ac30e97949
+    platform: linux/amd64
+    restart: unless-stopped
+    # Nginx reaps its own workers; keep the master as PID 1 for Docker HUP reloads.
+    init: false
+    ports:
+      - "${BIND_ADDRESS:-0.0.0.0}:${PORT:-7373}:7373"
+    environment:
+      PUBLIC_HOST: ${PUBLIC_HOST:?Set PUBLIC_HOST}
+      PUBLIC_PORT: ${PORT:-7373}
+      TLS_CERT_NAME: ${TLS_CERT_NAME:?Set TLS_CERT_NAME}
+    volumes:
+      - ./deploy/nginx.conf.template:/etc/nginx/meteonavo.conf.template:ro
+      - ${TLS_CERT_DIR:-/etc/letsencrypt}:/etc/letsencrypt:ro
+    entrypoint:
+      - /bin/sh
+      - -ec
+      - |
+        envsubst '$$PUBLIC_HOST $$PUBLIC_PORT $$TLS_CERT_NAME' < /etc/nginx/meteonavo.conf.template > /etc/nginx/nginx.conf
+        nginx -t
+        exec nginx -g 'daemon off;'
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1:7373/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    depends_on:
+      api:
+        condition: service_healthy

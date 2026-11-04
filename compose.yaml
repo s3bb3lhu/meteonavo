@@ -1,0 +1,61 @@
+services:
+  api:
+    build: .
+    image: ghcr.io/s3bb3lhu/meteonavo:0.1.0
+    platform: linux/amd64
+    restart: unless-stopped
+    init: true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    ports:
+      - "${BIND_ADDRESS:-0.0.0.0}:${PORT:-7373}:8080"
+    environment:
+      RENDER_FPS: ${FPS:-15}
+      DATA_DIR: /data
+      MEDIA_DIR: /media
+      GEOCODER_URL: ${GEOCODER_URL:-https://photon.komoot.io/api/}
+      HLS_DIR: /hls
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-}
+      SERVICE_KEY_FILE: /run/studio/renderer.key
+    volumes:
+      - config:/data
+      - service:/run/studio
+      - media:/media
+      - hls:/hls
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+  renderer:
+    image: ghcr.io/s3bb3lhu/meteonavo:0.1.0
+    platform: linux/amd64
+    command: ["python", "-m", "app.renderer"]
+    restart: unless-stopped
+    init: true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    shm_size: 1gb
+    environment:
+      API_URL: http://api:8080
+      SERVICE_KEY_FILE: /run/studio/renderer.key
+      HLS_DIR: /hls
+      FPS: ${FPS:-15}
+    volumes:
+      - hls:/hls
+      - media:/media:ro
+      - service:/run/studio:ro
+    depends_on:
+      api:
+        condition: service_healthy
+volumes:
+  service:
+  config:
+  media:
+  hls:

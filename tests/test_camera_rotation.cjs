@@ -1,0 +1,12 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const c=vm.createContext({});vm.runInContext(fs.readFileSync('app/static/camera-view.js','utf8'),c);
+vm.runInContext("var items=[{id:'skyline'},{id:'bahnhof'},{id:'panorama'}];",c);
+assert.equal(vm.runInContext("cameraResumeIndex('channel1',items)",c),0);
+vm.runInContext("cameraCursor.set('channel1','skyline')",c);
+assert.equal(vm.runInContext("cameraResumeIndex('channel1',items)",c),1,'Returning to the page continues with the next camera');
+assert.equal(vm.runInContext("cameraResumeIndex('channel2',items)",c),0,'Channels retain independent cursors');
+vm.runInContext("cameraView={items,rotationSeconds:30}",c);
+assert.equal(vm.runInContext('cameraPageSeconds(20)',c),90,'The broadcast must allow a full rotation even with 20-second weather pages');
+assert.equal(vm.runInContext('cameraPageSeconds(120)',c),120);
+vm.runInContext("cameraCursor.set('channel1','removed')",c);assert.equal(vm.runInContext("cameraResumeIndex('channel1',items)",c),0);
+console.log('Camera rotation: full on-air round, page reentry, removed sources and independent channels OK');

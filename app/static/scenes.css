@@ -1,0 +1,60 @@
+/* Atmospheric scenery is illustrative. Data always remains in the foreground. */
+.weather-scene{display:none;position:absolute;inset:0;z-index:-2;overflow:hidden;pointer-events:none;--sky-top:#2376a0;--sky-bottom:#9ccfda;--horizon:#526d87;--ground:#243e50;--water:#4a8395;--orb:#fff1bc}
+.tv.has-scene .weather-scene{display:block}.tv.has-scene::before{display:none}
+.weather-scene>div,.scene-nature,.scene-city{position:absolute}
+.scene-sky{inset:0;background:linear-gradient(180deg,var(--sky-top),var(--sky-bottom));transition:background 2s}
+.tv[data-period=dawn] .weather-scene{--sky-top:#514c83;--sky-bottom:#eaa77f;--horizon:#756f8e;--ground:#3d515e;--water:#867b97;--orb:#ffe3ad}
+.tv[data-period=dusk] .weather-scene{--sky-top:#373f78;--sky-bottom:#d98970;--horizon:#736480;--ground:#323d56;--water:#786984;--orb:#ffc28a}
+.tv[data-period=night] .weather-scene{--sky-top:#071326;--sky-bottom:#243d5e;--horizon:#25334d;--ground:#111d30;--water:#213e58;--orb:#e5edff}
+.tv[data-period=unknown] .weather-scene{--sky-top:#223446;--sky-bottom:#455e70}
+.tv:is([data-weather=rain],[data-weather=fog],[data-weather=snow]) .scene-sky{filter:saturate(.5) brightness(.76)}
+.tv[data-weather=storm] .scene-sky{filter:saturate(.4) brightness(.5)}
+.scene-orb{height:102px;width:102px;left:78%;top:16%;border-radius:50%;background:var(--orb);box-shadow:0 0 80px 35px #ffe6b025;animation:orb-breathe 12s ease-in-out infinite alternate}
+.tv:is([data-period=dawn],[data-period=dusk]) .scene-orb{top:52%;left:82%}
+.tv[data-period=night] .scene-orb{height:76px;width:76px;background:transparent;box-shadow:inset -18px -7px 0 1px #edf2ff,0 0 70px #c0daff15}
+.tv:is([data-weather=rain],[data-weather=snow],[data-weather=storm],[data-weather=fog],[data-weather=unknown]) .scene-orb,.tv[data-period=unknown] .scene-orb{display:none}
+.scene-stars{inset:0;opacity:0;transition:opacity 2s}.scene-stars i{position:absolute;width:2px;height:2px;background:#e9f4ff;border-radius:50%;animation:star-glow 6s var(--delay) ease-in-out infinite alternate}
+.tv[data-period=night][data-weather=clear] .scene-stars{opacity:.8}.tv[data-period=night][data-weather=clouds] .scene-stars{opacity:.12}
+.tv[data-weather=clouds][data-cloud-cover="3"] .scene-stars{opacity:0}.tv[data-weather=clouds][data-cloud-cover="3"] .scene-orb{opacity:.2;animation:none}
+.scene-clouds{inset:0;opacity:0;transition:opacity 2s}
+.tv[data-weather=clouds] .scene-clouds{opacity:.65}.tv:is([data-weather=rain],[data-weather=snow],[data-weather=storm]) .scene-clouds{opacity:.8}
+.scene-cloud{position:absolute;width:420px;height:70px;left:calc(-15% + var(--i)*22%);top:calc(8% + var(--i)*5%);border-radius:60%;background:linear-gradient(#e7edf0ac,#c3d2de90);animation:sky-drift calc(48s + var(--i)*9s) ease-in-out infinite alternate;opacity:calc(.75 - var(--i)*.06)}
+.scene-cloud::before,.scene-cloud::after{content:'';position:absolute;border-radius:50%;background:inherit}.scene-cloud::before{width:180px;height:120px;left:45px;bottom:8px}.scene-cloud::after{width:230px;height:140px;left:150px;bottom:10px}
+.tv[data-period=night] .scene-cloud{background:linear-gradient(#52627a90,#31435bba)}
+.scene-nature,.scene-city{display:none;inset:0;width:100%;height:100%}
+.tv[data-theme=nature] .scene-nature{display:block}.tv[data-theme=city] .scene-city{display:block}
+.far-mountain{fill:var(--horizon)}.near-mountain{fill:var(--ground)}.lake{fill:var(--water)}.forest{fill:none;stroke:var(--ground);stroke-width:7;stroke-linecap:round;opacity:.8}
+.lake-ripples{stroke:#d8efff45;stroke-width:2;animation:water-shimmer 12s ease-in-out infinite alternate}
+.city-haze{fill:var(--horizon);opacity:.5}.buildings{fill:var(--ground)}.windows{fill:#e0eaf3;opacity:.12;transition:opacity 3s}.street{stroke:#ffc280;stroke-width:4;opacity:.1}
+.tv:is([data-period=night],[data-period=dusk]) .windows{opacity:.9;fill:#ffd297}.tv:is([data-period=night],[data-period=dusk]) .street{opacity:.65}
+.scene-rain,.scene-snow{inset:-15% -5% 0;display:none;overflow:hidden}
+.tv:is([data-weather=rain],[data-weather=storm]) .scene-rain{display:block}.tv[data-weather=snow] .scene-snow{display:block}
+.scene-rain i{position:absolute;width:1px;height:34px;background:linear-gradient(transparent,#d9edffb0);animation:scene-rain-fall var(--duration) var(--delay) linear infinite}
+.scene-snow i{position:absolute;width:var(--size);height:var(--size);border-radius:50%;background:#f2f8ffbb;animation:scene-snow-fall var(--duration) var(--delay) linear infinite}
+.scene-fog{display:none;left:-15%;right:-15%;top:35%;height:65%;background:linear-gradient(transparent,#c9d8e447,transparent 48%,#e1e8eb45,transparent);filter:blur(12px);animation:fog-shift 30s ease-in-out infinite alternate}
+.tv[data-weather=fog] .scene-fog{display:block}.scene-flash{display:none;inset:0;background:#d8e4ff;opacity:0;animation:distant-light 17s ease-in-out infinite}.tv[data-weather=storm] .scene-flash{display:block}
+.scene-photo{display:none;inset:-5%;background-image:var(--scene-photo);background-size:cover;background-position:center;animation:camera-drift 80s ease-in-out infinite alternate}
+.tv[data-scene=cinematic] .scene-photo{display:block}.tv[data-scene=cinematic] .scene-sky{opacity:0}.tv[data-scene=cinematic] .scene-orb{display:none}
+.tv[data-scene=cinematic]:is([data-period=dawn],[data-period=dusk]) .scene-photo{filter:sepia(.32) saturate(.85) brightness(.78)}
+.tv[data-scene=cinematic][data-period=night]:not([data-photo=night]) .scene-photo{filter:brightness(.22) saturate(.55)}
+.tv[data-scene=cinematic][data-weather=snow] .scene-photo{filter:saturate(.12) brightness(.85)}
+.tv[data-scene=cinematic][data-period=night][data-weather=snow] .scene-photo{filter:saturate(.12) brightness(.3)}
+.flow-ribbon{display:none;left:15%;top:-15%;width:1300px;height:750px;border-radius:48%;border:90px solid #d4d0ff20;transform:rotate(-30deg);animation:flow-travel 26s ease-in-out infinite alternate}
+.tv[data-theme=flow] .flow-ribbon{display:block}.tv[data-theme=flow] .scene-orb,.tv[data-theme=flow] .scene-clouds{display:none}.tv[data-theme=flow] .scene-sky{background:linear-gradient(150deg,var(--sky-top),#4d4383 60%,var(--sky-bottom))}
+.ribbon-two{left:38%;top:5%;border-color:#8ddad526;animation-delay:-9s;animation-duration:33s}.ribbon-three{left:-32%;top:40%;border-color:#eac3a91a;animation-delay:-15s;animation-duration:40s}
+.scene-scrim{inset:0;background:linear-gradient(90deg,#071322b8,#07132250),linear-gradient(0deg,#0713228c,transparent 60%)}
+.tv.has-scene{--ink:#f0f6ff;--cloud:#e8f1f5;--cloud-edge:#ffffff66;background:var(--bg)}
+.tv.has-scene header{border-bottom:1px solid #ffffff40}.tv.has-scene .metric,.tv.has-scene .day{background:#07162780;border:1px solid #ffffff30;border-radius:16px;box-shadow:0 7px 25px #0000000c}
+.tv.has-scene footer{color:#d0dfec;border-color:#ffffff30}.tv.has-scene h2{color:var(--accent)}.tv.has-scene .ticker{color:#edf7ff}
+#scene-note{display:block;font-size:12px;color:inherit;opacity:.78;text-align:right;margin-top:8px;max-width:340px;line-height:1.4}
+.tv.no-motion .weather-scene *{animation:none!important}.tv.no-motion .scene-rain i,.tv.no-motion .scene-snow i{opacity:.45}
+.design-choice[data-theme=sky]{color:#e8f6ff;background:linear-gradient(#2b6f9b,#536681)}.design-choice[data-theme=city]{color:#ffe6c3;background:linear-gradient(135deg,#28375d,#6d5264)}.design-choice[data-theme=nature]{color:#d7f3e7;background:linear-gradient(135deg,#254c57,#172b3d)}.design-choice[data-scene=cinematic]{color:#f6ebd1;background:linear-gradient(#122337aa,#122337aa),url('/static/backgrounds/cinematic-lake.png') center/cover}.design-choice[data-theme=flow]{color:#eeeaff;background:linear-gradient(135deg,#313867,#715878)}
+@keyframes sky-drift{from{transform:translateX(-60px)}to{transform:translateX(100px)}}
+@keyframes star-glow{from{opacity:.3}to{opacity:.9}}@keyframes orb-breathe{from{transform:scale(.98);opacity:.9}to{transform:scale(1.03);opacity:1}}
+@keyframes scene-rain-fall{from{transform:translate(15px,-90px) rotate(14deg)}to{transform:translate(-35px,240px) rotate(14deg)}}
+@keyframes scene-snow-fall{from{transform:translate(-10px,-100px);opacity:.25}50%{opacity:.8}to{transform:translate(35px,220px);opacity:.25}}
+@keyframes water-shimmer{from{transform:translateX(-10px);opacity:.3}to{transform:translateX(20px);opacity:.75}}
+@keyframes fog-shift{from{transform:translateX(-35px);opacity:.45}to{transform:translateX(40px);opacity:.8}}
+@keyframes distant-light{0%,88%,92%,100%{opacity:0}90%{opacity:.065}}
+@keyframes camera-drift{from{transform:scale(1) translateX(-1%)}to{transform:scale(1.07) translateX(1%)}}
+@keyframes flow-travel{from{transform:translate(-35px,-20px) rotate(-30deg)}to{transform:translate(60px,35px) rotate(-15deg)}}
